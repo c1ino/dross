@@ -3,5 +3,7 @@
 - [Dujltqzv/Some-Many-Books: 个人收藏书籍列表……(43000)](https://github.com/Dujltqzv/Some-Many-Books)
 ## 论坛
 ## 广告
+## 挖矿
+## 新闻爬虫
 ## 网盘
 ## 博客
