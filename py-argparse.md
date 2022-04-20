@@ -30,6 +30,11 @@
   - ArgumentParser (argument-parser)
     - add_argument (argument)
     - parse_args (args-parse)
+  + ArgumentParser => argparse
+  + argument(parameter): \
+      ArgumentParser, add_argument
+  + arg(argument): \
+      argparse, parse_args
 
 
 # argparse
