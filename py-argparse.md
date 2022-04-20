@@ -64,7 +64,8 @@
 - arguments-style
   - abbrev
     - --long=val
-    - -shortmerge
+    - -shortflagmerge
+    - -shortsinglecharvaluemerge
     - /dos-style
     - -- -escape-normal-val
     - -prefixmatch
