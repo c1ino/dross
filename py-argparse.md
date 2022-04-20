@@ -71,6 +71,7 @@
   - file-support
     - @argfile_prefix
     - `-` stdin/stdout 
+    - FileType
 - subparser (cmd)
   - add_parser()
 - argument_group
