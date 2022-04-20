@@ -23,7 +23,7 @@
   - required
   - choices
   - help
-    - metavar
+    - metavar (placeholder-in-help)
 ## (metaphor)
 - args: positional, keyword(option), default
 - argparse (arg-parse)
