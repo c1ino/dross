@@ -13,6 +13,7 @@
 - (basic)
   - name/flags/alias (pos, -short, --long)
   - nargs (N, ?, *, +)
+    - (N, ?[0,1], *[0,n], +[1,n])
   - default (fallback)
   - type (auto-convert-callback)
 - (advanced)
