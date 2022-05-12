@@ -10,6 +10,7 @@
     select_one
     find
     find_all
+  - [:tag-attr] .childtag-name
 - BeautifulSoup(:src, :parser/markup)
 # requests
 - (response)
