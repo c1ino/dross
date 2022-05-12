@@ -26,24 +26,23 @@
   - Session()
   - Request() 
 # feedparser
-- feedparser
-  - parse(:src/url/str)
-    - .feed
-      - title
-        link
-        description
-        published
-        published_parsed
-        updated
-        cloud
-    - .entries
-      - content
-        summary
-        enclosures{attachments}
-        contributors
-        links
-    - .channel
-    - [items]
-    - .namespaces
-    - .version
-    - .bozo{error}
+- parse(:src/url/str)
+  - .feed
+    - title
+      link
+      description
+      published
+      published_parsed
+      updated
+      cloud
+  - .entries
+    - content
+      summary
+      enclosures{attachments}
+      contributors
+      links
+  - .channel
+  - [items]
+  - .namespaces
+  - .version
+  - .bozo{error}
