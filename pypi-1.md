@@ -15,7 +15,7 @@
   - prettify 
     get_text(:sep, strip)
 - BeautifulSoup(:src, :parser/markup)
-- diagnose.diagnose()
+- diagnose.diagnose(:src)
 # requests
 - (response)
   - .text
