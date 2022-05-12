@@ -1,5 +1,5 @@
 # bs4/beautifulsoup4
-- (element)
+- (element/soup)
   - .childtag
     .contents
     .children{iter}
@@ -10,8 +10,12 @@
     select_one
     find
     find_all
-  - [:tag-attr] .childtag-name
+  - [:tag-attr]/get(:tag-attr)
+    .:childtag-name
+  - prettify 
+    get_text(:sep, strip)
 - BeautifulSoup(:src, :parser/markup)
+- diagnose.diagnose()
 # requests
 - (response)
   - .text
