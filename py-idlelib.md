@@ -39,7 +39,7 @@
     - ^p, ^n = prev/up, next/down
     - ^i
   - (edit)
-    - ^d, ^k = del-char, del-line/kill-line
+    - ^d, ^k = del-next-char, del-to-end-of-line/kill-line
 - idlelib
   - #, = preferences
   - (edit)
