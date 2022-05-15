@@ -30,11 +30,12 @@
       - table `SET` col=val, ...
   - R(DQL): `SELECT` ...
     - WHERE
+    - ORDER BY
+    - LIMIT, OFFSET
     - JOIN, ON, USING
     - GORUP BY, HAVING
-    - ORDER BY
-    - LIMIT
     - DISTINCT
+    - UNION
   - VIEW, TRIGGER, INDEX, ...
 - sugar
   - IF EXISTS, IF NOT EXISTS
