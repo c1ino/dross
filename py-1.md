@@ -2,10 +2,6 @@
 # pdb
 - set_trace/breakpoint
 - pm
-# idlelib
-- (key bindings/shortcuts/hotkeys)
-- (cli)
-  - -r (run)
 # pip
 - (install)
   - download
@@ -37,3 +33,7 @@
   - row_factory
 - Row
   - keys()
+## sqlite
+- gramma
+  - "col", 'str', \0
+  - soft-keyword
