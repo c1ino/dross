@@ -7,6 +7,7 @@
   - -t (title)
   - \- (stdin)
   - (startup)
+    - IDLESTARTUP, PYTHONSTARTUP
   - (workaround)
 - config
   - ~/.idlerc
@@ -29,3 +30,8 @@
     - view in new win
   - jump to exception
 ## key bindings/shortcuts/hotkeys
+>https://docs.python.org/zh-cn/3/library/idle.html#key-bindings
+- system
+- tcl/tk
+- idlelib
+  - #, = preferences
