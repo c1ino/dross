@@ -33,11 +33,18 @@
 >https://docs.python.org/zh-cn/3/library/idle.html#key-bindings
 - system
 - tcl/tk
+  - (navigate)
+    - ^a, ^e = ahead, end
+    - ^f, ^b = forward/left, backward/right
+    - ^p, ^n = prev/up, next/down
+    - ^i
+  - (edit)
+    - ^d, ^k = del-char, del-line/kill-line
 - idlelib
   - #, = preferences
   - (edit)
     - (navigate)
-      - #j = goto-line
+      - #j = jumpto-line
     - (move)
       - #\[, #\] = indent
     - (hint)
