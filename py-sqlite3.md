@@ -45,6 +45,12 @@
 - constrains
   - PRIMARY KEY
   - FOREIGN KEY
+    - ON DELETE/UPDATE
+    - (action)
+      - NO ACTION (free)
+      - RESTRICT (lock)
+      - SET NULL/DEFAULT (reset)
+      - CASCADE (bind)
   - AUTOINCREMENT
   - UNIQUE
   - DEFAULT, NOT NULL, CHECK
