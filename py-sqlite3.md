@@ -36,6 +36,7 @@
     - GORUP BY, HAVING
     - DISTINCT
     - UNION
+    - AS (ALIAS)
   - VIEW, TRIGGER, INDEX, ...
 - sugar
   - IF EXISTS, IF NOT EXISTS
@@ -63,3 +64,5 @@
   - BETWEEN AND
   - IN
   - EXISTS
+
+[SQLite Foreign Key Support]:(https://www.sqlite.org/foreignkeys.html#fk_unsupported)
