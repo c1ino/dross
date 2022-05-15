@@ -36,6 +36,18 @@
 - idlelib
   - #, = preferences
   - (edit)
+    - (navigate)
+      - #j = goto-line
+    - (move)
+      - #\[, #\] = indent
+    - (hint)
+      - ^0 = flash-paren
+      - ^\ = call-tip
+      - !/ = expand
+      - ^space = completions
+    - (edit)
+      - #c, #x, #v
+      - (comment, undo/redo, find/replace)
   - (execute)
     - ^c = interrupt
     - ^d = eof
