@@ -1,14 +1,16 @@
 
 # idlelib
 - cli
-  - -r (run)
   - -e (editor)
-  - -d (debugger)
-  - -t (title)
+  - -i (shell/interactive)
+    - -r (run)
+    - -c (cmd)
+    - -d (debugger)
+    - -t (title)
+    - -s (startup)
+      - IDLESTARTUP, PYTHONSTARTUP
   - \- (stdin)
-  - (startup)
-    - IDLESTARTUP, PYTHONSTARTUP
-  - (workaround)
+  - -n (workaround)
 - config
   - ~/.idlerc
 - menu-bar
