@@ -29,9 +29,17 @@
   - Squeezed text
     - view in new win
   - jump to exception
-## key bindings/shortcuts/hotkeys
+## key bindings/shortcuts/hotkeys/key-set
 >https://docs.python.org/zh-cn/3/library/idle.html#key-bindings
 - system
 - tcl/tk
 - idlelib
   - #, = preferences
+  - (edit)
+  - (execute)
+    - ^c = interrupt
+    - ^d = eof
+    - ^F6 = restart-shell
+  - (window)
+    - #n/w = new/close-window
+    - #m, #b
