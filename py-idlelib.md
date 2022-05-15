@@ -1,0 +1,24 @@
+
+# idlelib
+- (key bindings/shortcuts/hotkeys)
+- (cli)
+  - -r (run)
+  - -e (editor)
+  - -d (debugger)
+  - -t (title)
+  - \- (stdin)
+  - (startup)
+  - (workaround)
+- config
+- menu-bar
+  - file
+  - edit
+  - shell
+  - debug
+  - options
+  - window
+  - help
+- editor
+- shell
+  - debugger
+    - stack-viewer
