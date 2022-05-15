@@ -1,0 +1,46 @@
+
+# sqlite3
+- connect()
+  - execute(:sql, :args), ...
+    - fetchone(), ...
+    - rowcount, lastrowid
+  - commit()
+  - close()
+  - row_factory
+- Row
+  - keys()
+## sqlite
+- gramma
+  - "col", 'str', \0
+  - soft-keyword
+- CRUD
+  - table
+    - C: CREATE TABLE ...
+      - table(col type, ...)
+    - D: DROP TABLE ...
+    - U: ALTER TABLE ...
+      - RENAME TO
+      - ADD COLUMN
+  - rows
+    - C: INSERT INTO ...
+      - table(col, ...) VALUES (val, ...)
+    - D: DELETE FROM ...
+    - U: UPDATE ...
+      - table SET col=val, ...
+  - R: SELECT ...
+  - VIEW, TRIGGER, INDEX, ...
+- sugar
+  - IF EXISTS, IF NOT EXISTS
+  - ON CONFLICT
+- PRAGMA
+- database
+  - attach, detatch
+- constrains
+  - PRIMARY KEY
+  - FOREIGN KEY
+  - AUTOINCREMENT
+  - UNIQUE
+  - DEFAULT, NOT NULL, CHECK
+- config
+  - ~/.sqliterc
+- operators
