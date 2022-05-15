@@ -24,7 +24,7 @@
   - debugger
     - stack-viewer
   - history
-    - ^prev/next, return
+    - ^prev/next, click+return
 - ctx-menu
   - Squeezed text
     - view in new win
