@@ -28,6 +28,12 @@
     - U: UPDATE ...
       - table SET col=val, ...
   - R(DQL): SELECT ...
+    - WHERE
+    - JOIN, ON
+    - GORUP BY, HAVING
+    - ORDER BY
+    - LIMIT
+    - DISTINCT
   - VIEW, TRIGGER, INDEX, ...
 - sugar
   - IF EXISTS, IF NOT EXISTS
@@ -44,3 +50,8 @@
 - config
   - ~/.sqliterc
 - operators
+  - LIKE
+  - GLOB, glob
+  - BETWEEN AND
+  - IN
+  - EXISTS
