@@ -1,7 +1,6 @@
 
 # idlelib
-- (key bindings/shortcuts/hotkeys)
-- (cli)
+- cli
   - -r (run)
   - -e (editor)
   - -d (debugger)
@@ -10,6 +9,7 @@
   - (startup)
   - (workaround)
 - config
+  - ~/.idlerc
 - menu-bar
   - file
   - edit
@@ -22,3 +22,10 @@
 - shell
   - debugger
     - stack-viewer
+  - history
+    - ^prev/next, return
+- ctx-menu
+  - Squeezed text
+    - view in new win
+  - jump to exception
+## key bindings/shortcuts/hotkeys
