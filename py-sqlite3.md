@@ -30,7 +30,7 @@
       - table `SET` col=val, ...
   - R(DQL): `SELECT` ...
     - WHERE
-    - JOIN, ON
+    - JOIN, ON, USING
     - GORUP BY, HAVING
     - ORDER BY
     - LIMIT
