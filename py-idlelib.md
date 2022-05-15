@@ -62,3 +62,6 @@
   - (window)
     - #n/w = new/close-window
     - #m, #b
+
+
+[console manual page - Tk Built-In Commands]:(https://www.tcl.tk/man/tcl8.7/TkCmd/console.html#M13)
