@@ -16,7 +16,8 @@
   - cmd1;; ...
   - help :cmd
     - pdb, !/exec
-  - alias :name :cmd %* %1, unalias
+  - alias :name :cmd %* %1
+    - unalias
 - (stack)
   - w/where
   - d/down, u/up
@@ -37,15 +38,17 @@
   - l/list, ll/longlist
   - a/args
   - p :expr, pp
-  - whatis :expr
-  - source :expr
-  - display :expr, undisplay
-  - retval
+  - whatis :expr  (type-of-expr)
+  - source :expr 
+  - display :expr 
+    - undisplay
+  - retval  (func-last-return-value)
 - (debug)
-  - interact (interactive-shell)
-  - debug :stmt (sub-pdb-into-stmt)
+  - interact  (interactive-shell)
+  - debug :stmt  (pdb.run(:stmt))
 - (process)
-  - run :args, restart
+  - run :args
+    - restart
   - q/quit
 
 
