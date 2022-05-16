@@ -11,10 +11,12 @@
 - ~/.pdbrc
 
 ## cmd
-- !stmt
-- cmd1;; ...
-- help :cmd
-  - pdb, !/exec
+- (sugar)
+  - !stmt
+  - cmd1;; ...
+  - help :cmd
+    - pdb, !/exec
+  - alias :name :cmd %* %1, unalias
 - (stack)
   - w/where
   - d/down, u/up
@@ -39,12 +41,12 @@
   - source :expr
   - display :expr, undisplay
   - retval
-- interact
-- alias :name :cmd %* %1, unalias
+- (debug)
+  - interact (interactive-shell)
+  - debug :stmt (sub-pdb-into-stmt)
 - (process)
   - run :args, restart
   - q/quit
-- debug :stmt
 
 
 ## class
