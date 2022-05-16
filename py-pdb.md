@@ -39,7 +39,8 @@
 - (inspect)
   - l/list, ll/longlist
   - a/args
-  - p :expr, pp
+  - p :expr
+    - pp
   - whatis :expr  ((type-of-expr))
   - source :expr 
   - display :expr 
