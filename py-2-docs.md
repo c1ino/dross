@@ -1,7 +1,7 @@
 - Chapters （章节）
   - changelog （有什么新变化）
   - documents
-    - tuotrial （教程）
+    - tutorial （教程）
     - stdlib （标准库参考）
     - language-reference （语言参考）
     - howto-guide （常见指引）
