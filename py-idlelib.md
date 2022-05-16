@@ -66,4 +66,6 @@
     - #m, #b
 
 
-[console manual page - Tk Built-In Commands]:(https://www.tcl.tk/man/tcl8.7/TkCmd/console.html#M13)
+- [console manual page - Tk Built-In Commands](https://www.tcl.tk/man/tcl8.7/TkCmd/console.html#M13)
+- [cpython/config-keys.def at main · python/cpython](https://github.com/python/cpython/blob/main/Lib/idlelib/config-keys.def)
+- [cpython/config_key.py at main · python/cpython](https://github.com/python/cpython/blob/main/Lib/idlelib/config_key.py)
