@@ -1,6 +1,8 @@
 # pdb
-- set_trace/breakpoint
-- pm/post_mortem
+- set_trace()
+  - breakpoint() (3.7+)
+- pm()
+  - post_mortem(:traceback)
 - run(:stmt)
   - eval, call
 
@@ -15,8 +17,9 @@
 - (sugar)
   - !stmt
   - cmd1;; ...
-  - help :cmd
+  - h/help :cmd
     - pdb, !/exec
+  - (repeat-last-cmd)
   - alias :name :cmd %* %1
     - unalias
 - (stack)
@@ -57,3 +60,4 @@
 
 ## class
 - Pdb
+  - (completekey='tab', stdin=None, stdout=None, skip=None, nosigint=False, readrc=True)
