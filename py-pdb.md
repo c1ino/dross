@@ -4,8 +4,8 @@
 - run(:stmt), (eval, call)
 
 ## cli
-- -c cmd 
-- -m mod (3.7+)
+- -c :cmd 
+- -m :mod (3.7+)
 
 ## config
 - ~/.pdbrc
