@@ -4,7 +4,7 @@
     - tutorial （教程）
     - stdlib （标准库参考）
     - language-reference （语言参考）
-    - howto-guide （常见指引）
+    - howto-guide （常用指引）
     - faq （常见问题）
   - setup & using （安装和使用）
   - module （模块）
