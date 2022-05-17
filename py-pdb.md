@@ -56,7 +56,9 @@
   - run :args
     - restart
   - q/quit
-
+###
+- (howto)
+  - print last exception
 
 ## class
 - Pdb
