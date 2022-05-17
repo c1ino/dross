@@ -35,7 +35,7 @@
 - (execute)
   - s/step  ((step-into-stack))
     - n/next  ((next-line))
-    - r/return ((return-to-previous-frame))
+    - r/return ((continue-untill-this-frame-return))
   - unt/unill :lineno
   - c/continue
   - j/jump :lineno
