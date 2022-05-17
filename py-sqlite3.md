@@ -1,6 +1,6 @@
 
 # sqlite3
-- connect()
+- connect(:path)
   - execute(:sql, :args), ...
     - fetchone(), ...
     - rowcount, lastrowid
@@ -29,14 +29,14 @@
     - U: `UPDATE` ...
       - table `SET` col=val, ...
   - R(DQL): `SELECT` ...
-    - WHERE
-    - ORDER BY
-    - LIMIT, OFFSET
+    - AS (ALIAS)
     - JOIN, ON, USING
+    - WHERE
     - GORUP BY, HAVING
     - DISTINCT
     - UNION
-    - AS (ALIAS)
+    - ORDER BY
+    - LIMIT, OFFSET
   - VIEW, TRIGGER, INDEX, ...
 - sugar
   - IF EXISTS, IF NOT EXISTS
