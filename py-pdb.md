@@ -33,7 +33,7 @@
   - condition
   - commands
 - (execute)
-  - s/step  ((step-into))
+  - s/step  ((step-into-stack))
     - n/next  ((next-line))
   - unt/unill :lineno
   - r/return
