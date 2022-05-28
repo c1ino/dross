@@ -54,3 +54,11 @@
           - ((lookbehind)) check-group-later-after-next-pos
       - (?flags) (?flags-flags:...)
       - (?#comment)
+- metaphor
+  - [char-set]
+  - (str-seq)
+  - (?=suffix-check)
+  - (?\<=prefix-check)
+
+
+[正则表达式的先行断言(lookahead)和后行断言(lookbehind) | 菜鸟教程]:(https://www.runoob.com/w3cnote/reg-lookahead-lookbehind.html)
