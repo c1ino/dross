@@ -55,10 +55,12 @@
       - (?flags) (?flags-flags:...)
       - (?#comment)
 - metaphor
-  - [char-set]
-  - (str-seq)
+  - [char-set] [^not]
+  - (str-seq) (?special) (?!not)
   - (?=suffix-check)
   - (?\<=prefix-check)
+  - ^line$
+  - repeat-range{min,max} minimum{m,n}?
 
 
 [正则表达式的先行断言(lookahead)和后行断言(lookbehind) | 菜鸟教程]:(https://www.runoob.com/w3cnote/reg-lookahead-lookbehind.html)
