@@ -33,20 +33,24 @@
     - \? {0,1} \?\?
     - \* {0,} \*\?
     - {m} {m,} {m,n} {m,n}?
-  - [flags](https://docs.python.org/zh-cn/3/howto/regex.html#compilation-flags)
+  - [flags](https://docs.python.org/zh-cn/3/howto/regex.html#compilation-flags) [^ 1](https://docs.python.org/zh-cn/3/library/re.html#flags)
   - operator
     - [chars_set] [from-to] [^not]
     - | or
     - ^head \A
     - end$ \Z
-    - \blank-of-words
-    - (group) \1 \:gindex
+    - \blank-of-words ((zero-width))
+    - (group) \1 \gindex
     - (?...)
-      - (?:non-capture)
-      - (?P\<gname\>named-group)
-        - (?P=gname)
-      - (?=...) (?!...) ((assert-check))
-        - (?\<=...) (?\<!...)
+      - ((group))
+        - (?:non-capture)
+        - (?P\<gname\>named-group)
+        - (?P=gname) ((backref))
+        - (?(gindex/gname)yes|no) ((if-else))
+      - ((assert-check)) zero-width assertions
+        - (?=...) (?!...) 
+          - ((lookahead)) check-group-now-before-next-pos
+        - (?\<=...) (?\<!...) 
+          - ((lookbehind)) check-group-later-after-next-pos
       - (?flags) (?flags-flags:...)
       - (?#comment)
-      - (?(gid/gname)yes|no) ((if-else))
