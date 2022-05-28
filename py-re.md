@@ -69,6 +69,6 @@
 ---
 ---
 - Tokenizer = named-group + or +  finditer + lastgroup + yield
-  - group, start, pointer, counter
+  - (group, start, pointer, counter)
 
 [正则表达式的先行断言(lookahead)和后行断言(lookbehind) | 菜鸟教程]:(https://www.runoob.com/w3cnote/reg-lookahead-lookbehind.html)
