@@ -54,7 +54,7 @@
           - ((lookbehind)) check-group-later-after-next-pos
       - (?flags) (?flags-flags:...)
       - (?#comment)
-- metaphor
+- metaphor/alias
   - [char-set] [^not]
   - (str-seq) (?special) (?!not)
   - (?=suffix-check)
