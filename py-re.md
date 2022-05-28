@@ -5,7 +5,7 @@
 - re
   - compile(:pat, :flags) -> Pattern
     - flags, groups, groupindex, pattern
-  - Match
+  - search/match/fullmatch(:pat, :str, :flags) -> Match
     - expand()
       group()
       [:group-index]
@@ -13,13 +13,9 @@
       groupdict()
       start/end/span()
     - pos, endpos, lastindex, lastgroup, re, string
-  - search()
-    match()
-    fullmatch()
-    split()
-    findall()
-    finditer()
-    sub()
-    subn()
-    escape()
-    purge()
+  - split(..., :maxsplit, \*)
+  - findall/finditer(..., \*)
+  - sub/subn(:pat, :repl, :str, :count, \*)
+  - (auxiliary) 
+    - escape(:pat)
+    - purge()
