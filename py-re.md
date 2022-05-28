@@ -1,14 +1,14 @@
 - regular-expr
-  - r'real-str'
+  - `r'\raw-str'`
   - special-char `.^$*+?{}\[]|()`
   - flags
 - re
   - compile(:pat, :flags) -> Pattern
     - .flags, .groups, .groupindex, .pattern
-  - (operation)
+  - (operation)((:pat, :str, :flags))
     - split(..., :maxsplit, \*)
     - findall/finditer(..., \*)
-    - sub/subn(:pat, :repl, :str, :count, \*)
+    - sub/subn(:pat, :repl/func , :str, :count, \*)
   - search/match/fullmatch(:pat, :str, :flags) -> Match
     - .pos, .endpos, .lastindex, .lastgroup, .re, .string
     - expand(:repl)
@@ -23,3 +23,30 @@
 - regular-expr
   - :repl `\g1` `\g<1>` `\g<name>`
     - `\g0` self
+  - meta-char
+    - \digit
+    - \space
+    - \word+digit+_ [a-zA-Z0-9_]
+    - \unicode-seq \N{unicode-name}
+  - repeat
+    - \+ {1,} \+\?
+    - \? {0,1} \?\?
+    - \* {0,} \*\?
+    - {m} {m,} {m,n} {m,n}?
+  - [flags](https://docs.python.org/zh-cn/3/howto/regex.html#compilation-flags)
+  - operator
+    - [chars_set] [from-to] [^not]
+    - | or
+    - ^head \A
+    - end$ \Z
+    - \blank-of-words
+    - (group) \1 \:gindex
+    - (?...)
+      - (?:non-capture)
+      - (?P\<gname\>named-group)
+        - (?P=gname)
+      - (?=...) (?!...) ((assert-check))
+        - (?\<=...) (?\<!...)
+      - (?flags) (?flags-flags:...)
+      - (?#comment)
+      - (?(gid/gname)yes|no) ((if-else))
