@@ -63,6 +63,7 @@
   - repeat-range{min,max} minimum{m,n}?
   - exist? more+ any*
   - wildcard. \escape |or 
+    - ((or)) |seq-or [char-or]
 
 
 [正则表达式的先行断言(lookahead)和后行断言(lookbehind) | 菜鸟教程]:(https://www.runoob.com/w3cnote/reg-lookahead-lookbehind.html)
