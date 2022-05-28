@@ -57,8 +57,7 @@
 - metaphor/alias
   - [char-set] [^not]
   - (str-seq) (?special) (?!not)
-  - (?=suffix-check)
-  - (?\<=prefix-check)
+  - (?=suffix-check) (?\<=prefix-check)
   - ^line$
   - repeat-range{min,max} minimum{m,n}?
   - exist? more+ any*
