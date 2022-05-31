@@ -1,7 +1,7 @@
 (3.7+) (for-asyncio)
 - Context(): Mapping
   - run(:func, *args, **kwrds)
-    - enter context(self) for func
+    - explicitly enter context(self) for func
   - [:name] -> ContextVar
   - get(:name, :fallback) -> context[:name].get(:fallback)
   - copy() keys() values() items()
