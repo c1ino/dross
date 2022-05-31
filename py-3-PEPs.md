@@ -8,7 +8,7 @@
   - (pending)
     - Open PEPs
     - Deferred PEPs
-  - (archive)
+  - (archived)
     - Historical Meta-PEPs and Informational PEPs
     - Abandoned, Withdrawn, and Rejected PEPs
   - Meta-PEPs \
