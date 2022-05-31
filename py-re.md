@@ -68,7 +68,7 @@
 - glossary
   - greedy & lazy
     - repeat/quantifier: maximum & minimum
-    - backtrack: any & once
+    - retry/backtrack: any & once
 
 ---
 ---
