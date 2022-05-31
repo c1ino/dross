@@ -20,7 +20,7 @@
   - (auxiliary) 
     - escape(:pat)
     - purge()
-- regular-expr
+- basic-regular-expr
   - :repl `\g1` `\g<1>` `\g<name>`
     - `\g0` self
   - meta-char
@@ -39,7 +39,7 @@
     - | or
     - ^head \A
     - end$ \Z
-    - \blank-of-words ((zero-width))
+    - \boundary-of-words ((zero-width))
     - (group) \1 \gindex
     - (?...)
       - ((group))
@@ -47,6 +47,7 @@
         - (?P\<gname\>named-group)
         - (?P=gname) ((backref))
         - (?(gindex/gname)yes|no) ((if-else))
+        - (?>no-backtrack) ((no-retry)) ((3.11+))
       - ((assert-check)) zero-width assertions
         - (?=...) (?!...) 
           - ((lookahead)) check-group-now-before-next-pos
@@ -63,6 +64,7 @@
   - exist? more+ any*
   - wildcard. \escape |or 
     - ((or)) |seq-or [char-or]
+  - ((3.11+)) (?>shortcut-lazy) maximum-lazy?+ ++ \*+ {m,n}+
 
 ---
 ---
