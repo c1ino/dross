@@ -1,0 +1,30 @@
+- [PEP 0 – Index of Python Enhancement Proposals (PEPs) | peps.python.org](https://peps.python.org/pep-0000/)
+###
+- Category
+  - (accepted)
+    - Accepted PEPs
+    - Provisional PEPs
+    - Finished PEPs 
+  - (pending)
+    - Open PEPs
+    - Deferred PEPs
+  - (archive)
+    - Historical Meta-PEPs and Informational PEPs
+    - Abandoned, Withdrawn, and Rejected PEPs
+  - Meta-PEPs \
+    Other Informational PEPs
+- PEP / Python Enhancement Proposal
+  - number
+  - key
+    - Types: I, P, S
+      - Informational
+      - Process
+      - Standards Track 
+    - Status: A, D, F, P, R, S, W 
+      - Accepted
+      - Deferred
+      - Final
+      - Provisional
+      - Rejected
+      - Superseded
+      - Withdrawn
