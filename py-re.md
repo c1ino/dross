@@ -47,7 +47,7 @@
         - (?P\<gname\>named-group)
         - (?P=gname) ((backref))
         - (?(gindex/gname)yes|no) ((if-else))
-        - (?>no-backtrack) ((no-retry)) ((3.11+))
+        - (?>no-backtrack) ((once/no-retry)) ((3.11+))
       - ((assert-check)) zero-width assertions
         - (?=...) (?!...) 
           - ((lookahead)) check-group-now-before-next-pos
@@ -65,6 +65,10 @@
   - wildcard. \escape |or 
     - ((or)) |seq-or [char-or]
   - ((3.11+)) (?>shortcut-lazy) maximum-lazy?+ ++ \*+ {m,n}+
+- glossary
+  - greedy & lazy
+    - repeat/quantifier: maximum & minimum
+    - backtrack: any & once
 
 ---
 ---
