@@ -1,13 +1,13 @@
 - [PEP 0 – Index of Python Enhancement Proposals (PEPs) | peps.python.org](https://peps.python.org/pep-0000/)
 ###
 - Category
+  - (pending)
+    - Open PEPs
+    - Deferred PEPs
   - (accepted)
     - Accepted PEPs
     - Provisional PEPs
     - Finished PEPs 
-  - (pending)
-    - Open PEPs
-    - Deferred PEPs
   - (archived)
     - Historical Meta-PEPs and Informational PEPs
     - Abandoned, Withdrawn, and Rejected PEPs
