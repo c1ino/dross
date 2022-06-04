@@ -1,6 +1,6 @@
 ## action
 - (single)
-  - store (DEFAULT)
+  - store (Default-Action)
   - store_const/true/false (flag)
 - (multiple)
   - append/_const
@@ -14,11 +14,11 @@
   - name/flags/alias (pos, -short, --long)
   - nargs (N, ?, *, +)
     - (N, ?[0,1], *[0,n], +[1,n])
-  - default (fallback)
+  - default (fallback-value)
   - type (auto-convert-callback)
 - (advanced)
   - action
-    - const (default-for-action)
+    - const (default-value-for-action)
   - dest (var-name)
 - (misc)
   - required
