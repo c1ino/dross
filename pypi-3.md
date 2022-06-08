@@ -1,37 +1,38 @@
 ## orm
 - db().connect()
-  - commit() close()
+  - close()
+  - commit() 
   - create_tables([...])
     - safe=True
   - atomic()
-- Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
+- .Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
   - create/__init__(**items) -> (row)
-    - save() delete_instance()
+    - save() 
     - get_id()
-  - bulk*
-    - bulk_create(:list{model})
-    - bulk_update(:list{model}, fields) 
+    - delete_instance()
   - *.execute()$
     - select()
       - join where group_by order_by count
-      - .get*()$
+      - .get()$
     - insert/replace(:dict, **items)
       - force_insert=False
       - on_conflict()
       - *_many(:dicts/rows, fields)
     - update delete
-  - get(:dsl)
-    - get_or_none()
+  - get/get_or_none(:dsl)
     - get_or_create(**items, defaults)
   - get_by_id(:pk)
     - set_by_id delete_by_id
   - _meta [^ 2](http://docs.peewee-orm.com/en/latest/peewee/models.html#model-options-and-table-metadata)
-    - fields primary_key database 
+    - fields primary_key auto_increment  
     - table_name legacy_table_names table_function
-    - auto_increment
+    - database
   - alias()
   - raw(:sql, *params)
   - __iter__ __len__
+  - bulk*
+    - bulk_create(:list{model})
+    - bulk_update(:list{model}, fields) 
 - class _Table(Model):
   - colname = *Field(...)
     - primary_key=False
@@ -52,5 +53,5 @@
   - ForeignKeyField(:model, backref)
   - IntegerField()
   - TextField()
-- Table
+- .Table
   - insert/replace(:dict/iter, columns, **items)
