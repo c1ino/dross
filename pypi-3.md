@@ -8,6 +8,7 @@
 - .Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
   - create/__init__(**items) -> (row)
     - save() 
+      - force_insert=False
     - get_id()
     - delete_instance()
   - *.execute()$
@@ -15,10 +16,11 @@
       - join where group_by order_by count
       - .get()$
     - insert/replace(:dict, **items)
-      - force_insert=False
       - on_conflict()
       - *_many(:dicts/rows, fields)
-    - update delete
+    - update(:dict/dsl, **items/dsl)
+    - delete
+    - insert_from()
   - get/get_or_none(:dsl)
     - get_or_create(**items, defaults)
   - get_by_id(:pk)
