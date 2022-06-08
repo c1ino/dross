@@ -1,0 +1,4 @@
+- datetime.datetime.now().isoformat(sep, timespec)
+- hashlib.sha1(:bytes)
+  - update(:bytes)
+  - hexdigest()
