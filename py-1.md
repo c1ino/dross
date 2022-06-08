@@ -1,7 +1,6 @@
 # todo
-# pdb
-- set_trace/breakpoint
-- pm
+- logging
+- tkinter
 # pip
 - (install)
   - download
