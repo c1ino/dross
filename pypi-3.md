@@ -4,24 +4,35 @@
   - create_tables([...])
     - safe=True
   - atomic()
-- Model
-  - create()
-    - save()
+- Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
+  - create/__init__(**items) -> (row)
+    - save() delete_instance()
+    - get_id()
+  - bulk*
+    - bulk_create(:list{model})
+    - bulk_update(:list{model}, fields) 
   - *.execute()$
     - select()
-      - join where group_by order_by
-    - insert/replace()
+      - join where group_by order_by count
+      - .get*()$
+    - insert/replace(:dict, **items)
       - force_insert=False
       - on_conflict()
+      - *_many(:dicts/rows, fields)
+    - update delete
   - get(:dsl)
     - get_or_none()
-    - get_or_create(:dsl, defaults)
+    - get_or_create(**items, defaults)
+  - get_by_id(:pk)
+    - set_by_id delete_by_id
   - _meta [^ 2](http://docs.peewee-orm.com/en/latest/peewee/models.html#model-options-and-table-metadata)
     - fields primary_key database 
     - table_name legacy_table_names table_function
     - auto_increment
   - alias()
-- class Table(Model):
+  - raw(:sql, *params)
+  - __iter__ __len__
+- class _Table(Model):
   - colname = *Field(...)
     - primary_key=False
     - unique=False
@@ -41,3 +52,5 @@
   - ForeignKeyField(:model, backref)
   - IntegerField()
   - TextField()
+- Table
+  - insert/replace(:dict/iter, columns, **items)
