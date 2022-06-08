@@ -1,12 +1,13 @@
 ## orm
 - db().connect()
   - commit() close()
-  - create_tables([...], safe=True)
+  - create_tables([...])
+    - safe=True
   - atomic()
 - Model
   - create()
     - save()
-  - .execute()$
+  - *.execute()$
     - .select()
       - join where group_by order_by
     - .insert/replace(force_insert=False)
