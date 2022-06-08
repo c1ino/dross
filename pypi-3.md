@@ -1,21 +1,40 @@
 ## orm
 - db().connect()
   - commit() close()
+  - create_tables([...], safe=True)
+  - atomic()
 - Model
   - create()
     - save()
   - .execute()$
     - .select()
       - join where group_by order_by
-    - .insert/replace()
+    - .insert/replace(force_insert=False)
   - get(:dsl)
     - get_or_none()
     - get_or_create(:dsl, defaults)
+  - _meta [^ 2](http://docs.peewee-orm.com/en/latest/peewee/models.html#model-options-and-table-metadata)
+    - fields primary_key database 
+    - table_name legacy_table_names table_function
+    - auto_increment
+  - alias()
 - class Table(Model):
-  - col = *Field(...)
+  - colname = *Field(...)
     - primary_key=False
     - unique=False
     - default=None
     - null=False 
-
-     
+    - column_name
+    - index
+    - constraints
+  - class Meta:
+    - database
+    - table_name
+    - indexes = (((...), True), )
+    - primary_key = CompositeKey(...)
+    - constraints
+- *Field
+  - AutoField()
+  - ForeignKeyField(:model, backref)
+  - IntegerField()
+  - TextField()
