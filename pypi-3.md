@@ -8,9 +8,11 @@
   - create()
     - save()
   - *.execute()$
-    - .select()
+    - select()
       - join where group_by order_by
-    - .insert/replace(force_insert=False)
+    - insert/replace()
+      - force_insert=False
+      - on_conflict()
   - get(:dsl)
     - get_or_none()
     - get_or_create(:dsl, defaults)
