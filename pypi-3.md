@@ -2,13 +2,14 @@
 - db().connect()
   - close()
   - commit() 
-  - create_tables([...])
-    - safe=True
+  - create_tables(:list{model})
+    - safe=True ((if not exist))
   - atomic()
 - .Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
   - create/__init__(**items) -> (row)
     - save() 
       - force_insert=False
+        - ((update if pk else insert))
     - get_id()
     - delete_instance()
   - *.execute()$
@@ -17,9 +18,9 @@
       - .get()$
     - insert/replace(:dict, **items)
       - on_conflict()
-      - *_many(:dicts/rows, fields)
+      - *_many(:list{dict/row}, fields)
     - update(:dict/dsl, **items/dsl)
-    - delete
+    - delete()
     - insert_from()
   - get/get_or_none(:dsl)
     - get_or_create(**items, defaults)
@@ -47,8 +48,8 @@
   - class Meta:
     - database
     - table_name
-    - indexes = (((...), True), )
-    - primary_key = CompositeKey(...)
+    - indexes = (((*cols), True), ...)
+    - primary_key = CompositeKey(*cols)
     - constraints
 - *Field
   - AutoField()
@@ -56,4 +57,4 @@
   - IntegerField()
   - TextField()
 - .Table
-  - insert/replace(:dict/iter, columns, **items)
+  - insert/replace(:list{dict/row}, columns, **items)
