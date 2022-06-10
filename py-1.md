@@ -1,0 +1,25 @@
+# todo
+- logging
+- tkinter
+# pip
+- (install)
+  - download
+  - install, uninstall
+  - (common)
+    - --no-deps
+    - --prefer-binary, ...
+    - -r, -c
+  - (index)
+    - -i, -f, ...
+- (packaging)
+  - wheel
+  - freeze
+- (info)
+  - show, list
+  - cache
+- (misc)
+  - config
+  - debug
+  - help
+- (legacy)
+  - search

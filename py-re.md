@@ -1,0 +1,79 @@
+- regular-expr
+  - `r'\raw-str'`
+  - special-char `.^$*+?{}\[]|()`
+  - flags
+- re
+  - compile(:pat, :flags) -> Pattern
+    - .flags, .groups, .groupindex, .pattern
+  - (operation)((:pat, :str, :flags))
+    - split(..., :maxsplit, \*)
+    - findall/finditer(..., \*)
+    - sub/subn(:pat, :repl/func , :str, :count, \*)
+  - search/match/fullmatch(:pat, :str, :flags) -> Match
+    - .pos, .endpos, .lastindex, .lastgroup, .re, .string
+    - expand(:repl)
+    - group(:gindex, ...)\
+      [:gindex]\
+      groups(:fallback)\
+      groupdict(:fallback)
+    - start/end/span(:gindex)
+  - (auxiliary) 
+    - escape(:pat)
+    - purge()
+- basic-regular-expr
+  - :repl `\g1` `\g<1>` `\g<name>`
+    - `\g0` self
+  - meta-char
+    - \digit
+    - \space
+    - \word+digit+_ [a-zA-Z0-9_]
+    - \unicode-seq \N{unicode-name}
+  - repeat
+    - \+ {1,} \+\?
+    - \? {0,1} \?\?
+    - \* {0,} \*\?
+    - {m} {m,} {m,n} {m,n}?
+  - [flags](https://docs.python.org/zh-cn/3/howto/regex.html#compilation-flags) [^ 1](https://docs.python.org/zh-cn/3/library/re.html#flags)
+  - operator
+    - [chars_set] [from-to] [^not]
+    - | or
+    - ^head \A
+    - end$ \Z
+    - \boundary-of-words ((zero-width))
+    - (group) \1 \gindex
+    - (?...)
+      - ((group))
+        - (?:non-capture)
+        - (?P\<gname\>named-group)
+        - (?P=gname) ((backref))
+        - (?(gindex/gname)yes|no) ((if-else))
+        - (?>no-backtrack) ((once/no-retry)) ((3.11+))
+      - ((assert-check)) zero-width assertions
+        - (?=...) (?!...) 
+          - ((lookahead)) check-group-now-before-next-pos
+        - (?\<=...) (?\<!...) 
+          - ((lookbehind)) check-group-later-after-next-pos
+      - (?flags) (?flags-flags:...)
+      - (?#comment)
+- metaphor/alias
+  - [char-set] [^not]
+  - (str-seq) (?special) (?!not)
+  - (?=suffix-check) (?\<=prefix-check)
+  - ^line$
+  - repeat-range{min,max} minimum{m,n}?
+  - exist? more+ any*
+  - wildcard. \escape |or 
+    - ((or)) |seq-or [char-or]
+  - ((3.11+)) (?>shortcut-lazy) maximum-lazy?+ ++ \*+ {m,n}+
+- glossary
+  - greedy & lazy
+    - repeat/quantifier: maximum & minimum
+    - retry/backtrack: any & once
+
+---
+---
+---
+- Tokenizer = named-group + or +  finditer + lastgroup + yield
+  - (group, start, pointer, counter)
+
+[正则表达式的先行断言(lookahead)和后行断言(lookbehind) | 菜鸟教程]:(https://www.runoob.com/w3cnote/reg-lookahead-lookbehind.html)
