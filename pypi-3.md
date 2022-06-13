@@ -48,7 +48,7 @@
   - class Meta:
     - database
     - table_name
-    - indexes = (((*cols), True), ...)
+    - indexes = (((*cols), :unique{bool}), ...)
     - primary_key = CompositeKey(*cols)
     - constraints
 - *Field
