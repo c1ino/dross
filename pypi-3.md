@@ -36,6 +36,9 @@
   - bulk*
     - bulk_create(:list{model})
     - bulk_update(:list{model}, fields) 
+  - add_index()
+    - index()
+    - SQL('CREATE INDEX ...')
 - class _Table(Model):
   - colname = *Field(...)
     - primary_key=False
@@ -58,3 +61,5 @@
   - TextField()
 - .Table
   - insert/replace(:list{dict/row}, columns, **items)
+- (trap)
+  - composite foreign-key [^ 3](https://docs.peewee-orm.com/en/latest/peewee/models.html#primary-keys-composite-keys-and-other-tricks)
