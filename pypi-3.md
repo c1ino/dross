@@ -18,7 +18,7 @@
       - .get()$
     - insert/replace(:dict, **items)
       - on_conflict()
-      - *_many(:list{dict/row}, fields)
+      - *_many(:list{dict|row}, fields)
     - update(:dict/dsl, **items/dsl)
     - delete()
     - insert_from()
@@ -60,6 +60,6 @@
   - IntegerField()
   - TextField()
 - .Table
-  - insert/replace(:list{dict/row}, columns, **items)
+  - insert/replace(:list{dict|row}, columns, **items)
 - (trap)
   - composite foreign-key [^ 3](https://docs.peewee-orm.com/en/latest/peewee/models.html#primary-keys-composite-keys-and-other-tricks)
