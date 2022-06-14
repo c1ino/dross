@@ -12,7 +12,7 @@
         - ((update if pk else insert))
     - get_id()
     - delete_instance()
-  - *.execute/dicts/objects()$ *.sql()
+  - *.execute/dicts/objects/tuples()$ *.sql()
     - select()
       - join where group_by order_by count
       - .get()$
@@ -67,3 +67,11 @@
   - insert/replace(:list{dict|row}, columns, **items)
 - (trap)
   - composite foreign-key [^ 3](https://docs.peewee-orm.com/en/latest/peewee/models.html#primary-keys-composite-keys-and-other-tricks)
+- playhouse.sqlite_ext 
+  - SqliteExtDatabase()
+    - JSONField()
+      - .set() .remove() 
+      - .update() .tree()
+      - .json_type()
+      - .extract()
+    - AutoIncrementField()
