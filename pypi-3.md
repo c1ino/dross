@@ -12,7 +12,7 @@
         - ((update if pk else insert))
     - get_id()
     - delete_instance()
-  - *.execute/sql()$
+  - *.execute/dicts/objects()$ *.sql()
     - select()
       - join where group_by order_by count
       - .get()$
@@ -59,6 +59,10 @@
   - ForeignKeyField(:model, backref)
   - IntegerField()
   - TextField()
+  - ManyToManyField()
+    - .get_through_model() -> Model
+    - .add/remove(:model/list{model}/dsl)
+    - .clear()
 - .Table
   - insert/replace(:list{dict|row}, columns, **items)
 - (trap)
