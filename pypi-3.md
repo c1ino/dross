@@ -12,7 +12,7 @@
         - ((update if pk else insert))
     - get_id()
     - delete_instance()
-  - *.execute()$
+  - *.execute/sql()$
     - select()
       - join where group_by order_by count
       - .get()$
