@@ -65,14 +65,14 @@
   - IN
   - EXISTS
 - (metaphor)
- - 别名/as
- - 拼接/join
- - 筛选/where on having
- - 分组/group by
- - 去重/distinct
- - 联合/union
- - 排序/order by
- - 分页/limit offset
- - 比较/运算符
+   - 别名/as
+   - 拼接/join
+   - 筛选/where on having
+   - 分组/group by
+   - 去重/distinct
+   - 联合/union
+   - 排序/order by
+   - 分页/limit offset
+   - 比较/运算符
 
 [SQLite Foreign Key Support]:(https://www.sqlite.org/foreignkeys.html#fk_unsupported)
