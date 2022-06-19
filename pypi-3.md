@@ -77,4 +77,5 @@
     - AutoIncrementField()
 - ((cons))
   - list{model} \<!\> query
+    - Model.col.in_(:list{model})
   - model \<!\> row
