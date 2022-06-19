@@ -65,7 +65,7 @@
     - .clear()
 - .Table
   - insert/replace(:list{dict|row}, columns, **items)
-- (trap)
+- ((trap))
   - composite foreign-key [^ 3](https://docs.peewee-orm.com/en/latest/peewee/models.html#primary-keys-composite-keys-and-other-tricks)
 - playhouse.sqlite_ext 
   - SqliteExtDatabase()
@@ -75,3 +75,6 @@
       - .json_type()
       - .extract()
     - AutoIncrementField()
+- ((cons))
+  - list{model} \<!\> query
+  - model \<!\> row
