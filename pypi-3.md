@@ -76,6 +76,6 @@
       - .extract()
     - AutoIncrementField()
 - ((cons))
-  - list{model} \<!\> query
+  - list{model} \<!\> query \<!\> sql_query
     - Model.col.in_(:list{model})
   - model \<!\> row
