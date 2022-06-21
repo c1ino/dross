@@ -28,3 +28,9 @@
 - collections
   - DefaultDict, OrderedDict, ChainMap, Deque
 - collections.abc
+
+---
+---
+---
+- PEP 3107 – Function Annotations
+- PEP 484 483
