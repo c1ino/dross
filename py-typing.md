@@ -4,8 +4,8 @@
 ###
 - Tuple[X, Y, ...] ((3.9-))
 - Union[X, Y, ...] ((3.10+ `X|Y|...`))
+  - Optional[X]
   - Literal[x, y, ...] ((3.8+))
-- Optional[X]
 - Callable[[ParamType, ...], ReturnType] ((3.9-))
   - Concatenate[Arg1Type, Arg2Type, ..., ParamSpecVariable] ((3.10+))
 - Type[C] ((3.9-))
