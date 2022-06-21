@@ -6,11 +6,11 @@
 - Union[X, Y, ...] ((3.10+ `X|Y|...`))
   - Optional[X]
   - Literal[x, y, ...] ((3.8+))
+    - Final ((3.8+)) ((constant))
 - Callable[[ParamType, ...], ReturnType] ((3.9-))
   - Concatenate[Arg1Type, Arg2Type, ..., ParamSpecVariable] ((3.10+))
 - Type[C] ((3.9-))
 - ClassVar
-- Final ((3.8+)) ((constant))
 - Annotated ((3.9+))
 - TypeGuard ((3.10+))
 ###
