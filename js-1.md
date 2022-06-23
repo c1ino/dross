@@ -1,0 +1,45 @@
+- Array
+  - extend()
+  - range()
+- String
+  - format()
+    - (interpolation)
+  - rsplit()
+- [HTML]
+  - [x] escape()
+- Object
+  - [x] dict(:items)
+    - `Object.fromEntries(:items)` 
+- [DOM]
+  - hasEventListener()
+- (line continuation character)
+- OOP
+  - [x] static_method from instance
+    - via classname or constructor
+  - [x] bound_method of instance
+    - via inst.func.bind(inst)
+- Function
+  - [x] keyword_arguments
+    - via {object: destructuring}
+  - [x] default_value
+
+
+## 
+- class {...}
+  - [x] Arrow Function
+    - via Field = ()=>{}
+  - field = value
+  - method (){}
+  - `@property`
+    - get getter(){}
+    - set setter(){}
+  - `__init__()`
+    - constructor()
+  - `class cls(base):`
+    - class cls extends base {...}
+  - `self`
+    - this
+  - `__class__`
+    - __proto__
+  - `cls()`
+    - new cls()
