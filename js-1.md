@@ -5,6 +5,9 @@
   - format()
     - (interpolation)
   - rsplit()
+  - [x] (interpolation) f'{str}'
+    - `${template_strings}`
+      - func`${arg1} template...`
 - [HTML]
   - [x] escape()
 - Object
@@ -43,3 +46,6 @@
     - __proto__
   - `cls()`
     - new cls()
+## design
+- implict `self` = this
+  - no bound_method
