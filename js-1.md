@@ -37,7 +37,7 @@
     - get getter(){}
     - set setter(){}
   - `__init__()`
-    - constructor()
+    - constructor(){...}
   - `class cls(base):`
     - class cls extends base {...}
   - `self`
