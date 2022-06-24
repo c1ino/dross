@@ -32,10 +32,10 @@
   - [x] Arrow Function
     - via Field = ()=>{}
   - field = value
-  - method(){}
+  - method(){...}
   - `@property`
-    - get getter(){}
-    - set setter(){}
+    - get getter(){...}
+    - set setter(){...}
   - `__init__()`
     - constructor(){...}
   - `class cls(base):`
