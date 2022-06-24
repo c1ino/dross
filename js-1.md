@@ -6,8 +6,8 @@
     - (interpolation)
   - rsplit()
   - [x] (interpolation) f'{str}'
-    - `${template_strings}`
-      - func`${arg1} template...`
+    - \`${template_strings}\`
+      - func\`${arg1} template...\`
 - [HTML]
   - [x] escape()
 - Object
