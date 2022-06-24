@@ -32,7 +32,7 @@
   - [x] Arrow Function
     - via Field = ()=>{}
   - field = value
-  - method (){}
+  - method(){}
   - `@property`
     - get getter(){}
     - set setter(){}
@@ -42,8 +42,8 @@
     - class cls extends base {...}
   - `self`
     - this
-  - `__class__`
-    - __proto__
+  - `__class__/__mro__`
+    - \_\_proto__
   - `cls()`
     - new cls()
 ## design
