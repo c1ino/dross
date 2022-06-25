@@ -5,6 +5,7 @@
   - format()
     - (interpolation)
   - rsplit()
+  - split(sep, max)
   - [x] (interpolation) f'{str}'
     - \`${template_strings}\`
       - func\`${arg1} template...\`
