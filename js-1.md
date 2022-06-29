@@ -11,6 +11,8 @@
       - func\`${arg1} template...\`
 - [HTML]
   - [x] escape()
+- [URL]
+  - [x] encode()
 - Object
   - [x] dict(:items)
     - `Object.fromEntries(:items)` 
@@ -26,6 +28,9 @@
   - [x] keyword_arguments
     - via {object: destructuring}
   - [x] default_value
+- RegEx
+  - search, match, test, exec
+  - lastgroup
 
 
 ## 
