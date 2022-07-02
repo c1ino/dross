@@ -31,6 +31,7 @@
   - [x] default_value
   - [[BoundThis]]
   - [[Call]]
+  - (multi-bind)[^ 1](https://tc39.es/ecma262/#sec-bound-function-exotic-objects) [^ 2](https://zh.javascript.info/task/second-bind)
 - RegEx
   - search, match, test, exec
   - lastgroup
