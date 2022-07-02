@@ -52,6 +52,26 @@
     - \_\_proto__
   - `cls()`
     - new cls()
+- generator = function* (){yield val;}
+  - gene = geneartor()
+  - `next(gene)`
+    - {value, done} = geng.next()
+  - `for val in gene:`
+    - for(let val of gene){...}
+  - return val;
+    - {value:val, done:true} = gene.next()
+  - `__iter__`
+    - {[Symbol.iterator](){...}}
+  - `__next__`
+    - {next(){...}}
+  - {*geneartor(){...}}
+  - `yield from subgene`
+    - yield* subgene
+  - `msg = yield value` `gene.send(msg)`
+    - gene.next(msg)
+  - `gene.throw(err)`
+  - `gene.close()`
+    - gene.return()
 ## design
 - implict `self` = this
   - no bound_method
