@@ -24,6 +24,7 @@
     - via classname or constructor
   - [x] bound_method of instance
     - via inst.func.bind(inst)
+  - `__call__`
 - Function
   - [x] keyword_arguments
     - via {object: destructuring}
