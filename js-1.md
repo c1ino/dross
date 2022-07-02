@@ -29,6 +29,7 @@
   - [x] keyword_arguments
     - via {object: destructuring}
   - [x] default_value
+  - [[BoundThis]]
 - RegEx
   - search, match, test, exec
   - lastgroup
