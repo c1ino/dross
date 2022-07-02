@@ -30,6 +30,7 @@
     - via {object: destructuring}
   - [x] default_value
   - [[BoundThis]]
+  - [[Call]]
 - RegEx
   - search, match, test, exec
   - lastgroup
@@ -74,6 +75,10 @@
   - `gene.throw(err)`
   - `gene.close()`
     - gene.return()
+- function
+  - bind(this, ...args)  
+  - call(this, ...args)
+  - apply(this, [args])
 ## design
 - implict `self` = this
   - no bound_method
