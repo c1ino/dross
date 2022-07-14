@@ -21,3 +21,12 @@
     - force ((3.8+))
   - shutdown
 - logging.handlers
+
+###
+- level, logger, msg
+  - msg
+    - format, style
+  - logger
+    - handler
+    - filter
+    - formatter
