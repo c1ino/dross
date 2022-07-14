@@ -21,12 +21,16 @@
     - force ((3.8+))
   - shutdown
 - logging.handlers
+- logging.config
+  - fileConfig dictConfig
 
 ###
 - level, logger, msg
   - msg
     - format, style
   - logger
-    - handler
     - filter
-    - formatter
+    - handler
+      - formatter
+####
+[-]:https://docs.python.org/zh-cn/3/howto/logging.html#useful-handlers
