@@ -22,6 +22,13 @@
   - d(day), m(month), y/Y(year)
   - H/I(hour), M(minute), S(second), f
   - p, z, Z
+- timetuple = time.struct_time()
+  - time.strftime/asctime() -> str
+    - time.strptime() -> timetuple
+  - time.mktime() -> timestamp
+- timestamp = time.time()
+  - time.localtime/gmtime() -> timetuple
+  - time.ctime() -> str
 
 
 # pip
