@@ -1,9 +1,9 @@
 - logging
   - getLogger(:name) -> Logger
     - setLevel, [propagate]
-    - getChild, findCaller
     - debug, info, warning, error, critical, exception, log
       - [10, 20, 30, 40, 50]
+    - getChild, findCaller
     - addFilter/removeFilter, filter
     - addHandler/removeHandler/hasHandlers, handle
   - addLevelName(level, levelName), getLevelName
@@ -17,10 +17,13 @@
   - shutdown()
   - ((class/factory))
     - Logger
+      - set/getLoggerClass()
     - (Handler)
     - Formatter
     - Filter
-    - set/getLogRecordFactory() -> (LogRecord)
+    - LogRecord
+      - set/getLogRecordFactory() -> (LogRecord)
+      - makeLogRecord()
     - LoggerAdapter(:logger, :extra)
 - logging.handlers [^ 1]
 - logging.config
