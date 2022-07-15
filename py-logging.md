@@ -28,9 +28,9 @@
 - level, logger, msg
   - msg
     - format, style
-  - logger
-    - filter
-    - handler
+  - logger ((input))
+    - filter ((process))
+    - handler ((output))
       - formatter
 ####
 [-]:https://docs.python.org/zh-cn/3/howto/logging.html#useful-handlers
