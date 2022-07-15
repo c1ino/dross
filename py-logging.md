@@ -6,20 +6,22 @@
       - [10, 20, 30, 40, 50]
     - addFilter/removeFilter, filter
     - addHandler/removeHandler/hasHandlers, handle
-  - (Handler)
-  - Formatter
-  - Filter
-  - set/getLogRecordFactory() -> (LogRecord)
-  - LoggerAdapter(:logger, :extra)
-  - disable(level=CRITICAL)
   - addLevelName(level, levelName), getLevelName
+  - disable(level=CRITICAL)
   - basicConfig()
     - stream/filename filemode 
       - ((3.9+)) encoding errors 
     - format datefmt style
     - level handlers
     - force ((3.8+))
-  - shutdown
+  - shutdown()
+  - ((class))
+    - Logger
+    - (Handler)
+    - Formatter
+    - Filter
+    - set/getLogRecordFactory() -> (LogRecord)
+    - LoggerAdapter(:logger, :extra)
 - logging.handlers [^ 1]
 - logging.config
   - fileConfig dictConfig
