@@ -30,9 +30,12 @@
 - level, logger, msg
   - msg
     - format, style
+    - (level)
   - logger ((input))
     - filter ((process))
     - handler ((output))
       - formatter ((template))
+      - (level)
+    - (level)
 ####
 [max]:1
