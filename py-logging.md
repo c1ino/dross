@@ -1,6 +1,6 @@
 - logging
   - getLogger(:name) -> Logger
-    - propagate, setLevel
+    - setLevel, [propagate]
     - getChild, findCaller
     - debug, info, warning, error, critical, exception, log
       - [10, 20, 30, 40, 50]
@@ -15,7 +15,7 @@
     - level handlers
     - force ((3.8+))
   - shutdown()
-  - ((class))
+  - ((class/factory))
     - Logger
     - (Handler)
     - Formatter
