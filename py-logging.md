@@ -20,9 +20,11 @@
     - level handlers
     - force ((3.8+))
   - shutdown
-- logging.handlers
+- logging.handlers [^ 1]
 - logging.config
   - fileConfig dictConfig
+
+[^ 1]:https://docs.python.org/zh-cn/3/howto/logging.html#useful-handlers
 
 ###
 - level, logger, msg
@@ -31,6 +33,6 @@
   - logger ((input))
     - filter ((process))
     - handler ((output))
-      - formatter
+      - formatter ((template))
 ####
-[-]:https://docs.python.org/zh-cn/3/howto/logging.html#useful-handlers
+[max]:1
