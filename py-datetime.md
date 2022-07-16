@@ -1,0 +1,27 @@
+
+# datetime
+- datetime = date(>24h) + time(<24h) + (timezone)
+  - timedelta = offset(datetime/date/time)
+- class timedelta(days, seconds, ...)
+- class date(year, month, day)
+  - today, fromtimestamp, fromisoformat
+  - replace, timetuple, isoformat, ctime, strftime
+- class datetime(...)
+  - today/now
+  - combine(date, time)
+  - strptime, date, time, timestamp
+- class time(hour, minute, second)
+- class timezone(...)
+- strftime/strptime
+  - a/A, b/B, c, x/X
+  - w/u, j, U/W/V
+  - d(day), m(month), y/Y(year)
+  - H/I(hour), M(minute), S(second), f
+  - p, z, Z
+- timetuple = time.struct_time()
+  - time.strftime/asctime() -> str
+    - time.strptime() -> timetuple
+  - time.mktime() -> timestamp
+- timestamp = time.time()
+  - time.localtime/gmtime() -> timetuple
+  - time.ctime() -> str
