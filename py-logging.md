@@ -21,10 +21,10 @@
     - (Handler)
     - Formatter
       - asctime created msecs relativeCreated
-      - msg args exc_info stack_info
       - pathname/filename/module funcName 
       - message name levelname/levelno 
       - process/processName thread/threadName
+      - msg args exc_info stack_info
     - Filter
     - LogRecord
       - set/getLogRecordFactory() -> (LogRecord)
