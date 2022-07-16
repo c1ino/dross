@@ -21,8 +21,8 @@
     - (Handler)
     - Formatter
       - asctime created msecs relativeCreated
-      - args exc_info msg stack_info
-      - pathname/filename module funcName 
+      - msg args exc_info stack_info
+      - pathname/filename/module funcName 
       - message name levelname/levelno 
       - process/processName thread/threadName
     - Filter
