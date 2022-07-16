@@ -23,7 +23,7 @@
       - asctime created msecs relativeCreated
       - args exc_info msg stack_info
       - pathname/filename module funcName 
-      - name levelname/levelno 
+      - message name levelname/levelno 
       - process/processName thread/threadName
     - Filter
     - LogRecord
