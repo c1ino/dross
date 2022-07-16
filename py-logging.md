@@ -20,6 +20,11 @@
       - set/getLoggerClass()
     - (Handler)
     - Formatter
+      - asctime created msecs relativeCreated
+      - args exc_info msg stack_info
+      - pathname/filename module funcName 
+      - name levelname/levelno 
+      - process/processName thread/threadName
     - Filter
     - LogRecord
       - set/getLogRecordFactory() -> (LogRecord)
