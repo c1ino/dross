@@ -107,11 +107,11 @@
 - [tree]
   - top self window frames length opener parent
   - open() close()
-- [misc]
 - [web-api]
 - [input]
   - alert confirm prompt
   - blur focus
+  - getSelection()
 - [event]
 - [state]
   - event 
@@ -121,8 +121,15 @@
 - [screen]
   - screen
   - visualViewport
-- [widget]
 - [util]
+  - atob() btoa()
+  - crypto
+  - fetch()
+  - setTimeout() setInterval()
+    clearTimeout() clearInterval()
+- [widget]
+- [render]
+- [misc]
 
 ## web-api
 ### WebRTC
