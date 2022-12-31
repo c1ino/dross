@@ -4,6 +4,7 @@
 - addEventListener
 - removeEventListener
 - dispatchEvent
+
 ## Node
 - [tree]
   - childNodes firstChild lastChild
@@ -22,11 +23,20 @@
   - normalize()
 - [misc]
 ### NodeList
+
 ## Element
 - [tag]
   - innerHTML outerHTML
   - localName tagName
 - [attribute]
+  - attributes
+  - classList className
+    - add() remove() replace() toggle()
+  - getAttribute() getAttributeNames()
+    hasAttribute() hasAttributes()
+    removeAttribute()
+    setAttribute()
+    toggleAttribute()
 - [tree]
   - nextElementSibling previousElementSibling
   - children childElementCount 
@@ -40,20 +50,26 @@
 - [screen]
   - [scroll]
   - [coordinate]
+### DOMTokenList
+
 ## HTMLElement
 - [tag]
   - innerText outerText
+  - style
+  - tabIndex
 - [input]
   - focus blur click
 - [misc]
   - contentEditable dataset draggable hidden offset style tabIndex
 ### HTMLCollection
+
 ## DocumentFragment (Node)
 - [tree]
 - [query]
 - [init]
   - document.createDocumentFragment()
   - new DocumentFragment()
+
 ## Events
 - touch
 - mouse
@@ -64,6 +80,7 @@
 - clipboard
 - misc
   - cancel error scroll select show wheel
+
 ## URL
 - [ObjectURL]
 - [init]
