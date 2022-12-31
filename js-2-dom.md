@@ -94,7 +94,24 @@
 ### DOMParser
 ### XPathEvaluator
 
-## Window
+## Window / global
+- [basic]
+  - document
+    - defaultView  
+  - history
+  - location
+  - localStorage sessionStorage
+  - navigator
+- [create]
+- [screen]
+- [tree]
+  - top self window frames
+- [misc]
+- [web-api]
+- [input]
+  - alert confirm prompt
+  - blur focus
+- [event]
 
 ## web-api
 ### WebRTC
