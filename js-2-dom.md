@@ -43,7 +43,7 @@
   - insertAdjacentElement(:pos, :el) 
     insertAdjacentHTML()
     insertAdjacentText()
-  - append() prepend() before() remove()
+  - append() prepend() before() after() remove()
   - replaceChildren() replaceWith()
 - [event]
 - [query]
@@ -63,13 +63,6 @@
   - contentEditable dataset draggable hidden offset style tabIndex
 ### HTMLCollection
 
-## DocumentFragment (Node)
-- [tree]
-- [query]
-- [init]
-  - document.createDocumentFragment()
-  - new DocumentFragment()
-
 ## Events
 - touch
 - mouse
@@ -82,10 +75,29 @@
   - cancel error scroll select show wheel
 
 ## URL
-- [ObjectURL]
+- [object-url]
 - [init]
 - [parts]
   - searchParams
 ### URLSearchParams
-## Document
+## Document (Node)
+- [create]
+- [tree]
+- [query]
+### HTMLDocument
+### DocumentFragment (Node)
+- [tree]
+- [query]
+- [init]
+  - document.createDocumentFragment()
+  - new DocumentFragment()
+### DOMParser
+### XPathEvaluator
+
 ## Window
+
+## web-api
+### WebRTC
+### WebGL
+### wasm
+### Web Speech API
