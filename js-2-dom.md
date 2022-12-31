@@ -15,6 +15,12 @@
   - focus blur click
 - [misc]
   - contentEditable dataset draggable hidden offset style tabIndex
+## DocumentFragment (Node)
+- [tree]
+- [query]
+- [init]
+  - document.createDocumentFragment()
+  - new DocumentFragment()
 ## Events
 - touch
 - mouse
