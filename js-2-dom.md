@@ -83,7 +83,14 @@
 ## Document (Node)
 - [create]
 - [tree]
+  - activeElement head body
+  - open() close() write()
+  - forms images links scripts
 - [query]
+- [info]
+  - baseURI domain referrer title URL documentURI
+  - doctype inputEncoding lastModified readyState
+  - cookie
 ### HTMLDocument
 ### DocumentFragment (Node)
 - [tree]
@@ -95,11 +102,11 @@
 ### XPathEvaluator
 
 ## Window / global
-- [basic]
+- [main]
   - document
     - defaultView  
-  - history
   - location
+  - history
   - navigator
   - console
   - localStorage sessionStorage
@@ -117,7 +124,7 @@
   - event 
   - stop()
 - [info]
-  - name origin
+  - name origin href
 - [screen]
   - screen
   - visualViewport
