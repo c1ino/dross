@@ -99,5 +99,9 @@
 ## web-api
 ### WebRTC
 ### WebGL
-### wasm
+### WebSocket
+### WebAssembly JavaScript API
 ### Web Speech API
+### Web MIDI API
+### Canvas API
+### Encrypted Media Extensions API
