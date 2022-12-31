@@ -100,18 +100,29 @@
     - defaultView  
   - history
   - location
-  - localStorage sessionStorage
   - navigator
+  - console
+  - localStorage sessionStorage
 - [create]
-- [screen]
 - [tree]
-  - top self window frames
+  - top self window frames length opener parent
+  - open() close()
 - [misc]
 - [web-api]
 - [input]
   - alert confirm prompt
   - blur focus
 - [event]
+- [state]
+  - event 
+  - stop()
+- [info]
+  - name origin
+- [screen]
+  - screen
+  - visualViewport
+- [widget]
+- [util]
 
 ## web-api
 ### WebRTC
