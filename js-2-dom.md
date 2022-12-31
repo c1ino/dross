@@ -1,7 +1,26 @@
 
 
 ## EventTarget
+- addEventListener
+- removeEventListener
+- dispatchEvent
 ## Node
+- [tree]
+  - childNodes firstChild lastChild
+  - nextSibling previousSibling
+  - parentNode parentElement
+  - appendChild() removeChild() replaceChild()
+  - insertBefore(:ins, :bef)
+  - compareDocumentPosition()
+  - contains() hasChildNodes()
+  - getRootNode()
+- [node]
+  - nodeName nodeType
+  - textContent
+  - cloneNode()
+  - isEqualNode() isSameNode()
+  - normalize()
+- [misc]
 ## Element
 - [attribute]
 - [tree]
@@ -31,3 +50,9 @@
 - clipboard
 - misc
   - cancel error scroll select show wheel
+## URL
+- [ObjectURL]
+- [init]
+- [parts]
+  - searchParams
+### URLSearchParams
