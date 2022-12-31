@@ -21,19 +21,33 @@
   - isEqualNode() isSameNode()
   - normalize()
 - [misc]
+### NodeList
 ## Element
+- [tag]
+  - innerHTML outerHTML
+  - localName tagName
 - [attribute]
 - [tree]
+  - nextElementSibling previousElementSibling
+  - children childElementCount 
+  - insertAdjacentElement(:pos, :el) 
+    insertAdjacentHTML()
+    insertAdjacentText()
+  - append() prepend() before() remove()
+  - replaceChildren() replaceWith()
 - [event]
 - [query]
 - [screen]
   - [scroll]
   - [coordinate]
 ## HTMLElement
+- [tag]
+  - innerText outerText
 - [input]
   - focus blur click
 - [misc]
   - contentEditable dataset draggable hidden offset style tabIndex
+### HTMLCollection
 ## DocumentFragment (Node)
 - [tree]
 - [query]
@@ -56,3 +70,5 @@
 - [parts]
   - searchParams
 ### URLSearchParams
+## Document
+## Window
