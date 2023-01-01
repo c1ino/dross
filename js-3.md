@@ -12,7 +12,7 @@
   - join() concat()
 - [fp]
   - every()  //[all] \
-    some()  //[any] \
+    some()  //[any]
   - forEach() \
     map() \
     filter() \
