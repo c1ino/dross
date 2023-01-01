@@ -3,8 +3,13 @@
   - from(:iter)
   - Array(:len) Array(...items)
   - of(...items)
-- entries() keys() values() slice()
-- join() flat() flatMap()
+- [iter]
+  - entries() keys() values() 
+  - for(let item of array){}
+- [get]
+  - slice()
+  - at(:pos)
+- join() 
   - concat()  //[extend]
 - [fp]
   - every()  //[all] \
@@ -13,11 +18,13 @@
     map() \
     filter() \
     reduce() reduceRight()
+  - flat() flatMap()
+  - group() groupToMap()
 - [find]
   - includes()
     indexOf() lastIndexOf() \
     find() findIndex() findLast() findLastIndex()
-- [change]
+- [set]
   - pop() push()
     sort() reverse()
     shift() unshift() \
