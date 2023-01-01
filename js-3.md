@@ -7,10 +7,9 @@
   - entries() keys() values() 
   - for(let item of array){}
 - [get]
-  - slice()
-  - at(:pos)
-- join() 
-  - concat()  //[extend]
+  - slice() at(:pos)
+- [basic]
+  - join() concat()
 - [fp]
   - every()  //[all] \
     some()  //[any] \
