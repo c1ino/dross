@@ -13,7 +13,7 @@
 - [fp]
   - every()  //[all] \
     some()  //[any] \
-    forEach() \
+  - forEach() \
     map() \
     filter() \
     reduce() reduceRight()
