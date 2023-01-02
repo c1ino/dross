@@ -86,6 +86,7 @@
   - freeze() seal() preventExtensions()
     - isExtensible() isFrozen() isSealed()  
   - propertyIsEnumerable()
+  - for(let prop in obj){}
 - [misc]
   - is() 
 - [str]
