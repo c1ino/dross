@@ -31,4 +31,23 @@
   - copyWithin(:dst, :strat, :end) \
     fill(:val, :start, :end)
 - isArray() valueOf() toString() toLocaleString() length
-  
+
+## String
+- [array]
+  - concat()
+  - indexOf() includes()
+  - slice() at()
+- [str]
+  - split()
+  - trim() trimStart() trimEnd() //[strip]
+  - charCodeAt() fromCharCode() codePointAt() fromCodePoint()
+  - endsWith() startsWith()
+  - repeat() padEnd() padStart()
+  - charAt() substr() substring()
+  - toLowerCase() toUpperCase() toLocaleLowerCase() toLocaleUpperCase()
+  - localeCompare()
+  - normalize()
+- [regex]
+  - match() matchAll() search()
+  - replace() replaceAll()
+- [html]
