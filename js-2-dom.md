@@ -137,6 +137,9 @@
 - [widget]
 - [render]
 - [misc]
+### location
+- assign() replace() reload()
+- href protocol host hostname port pathname search hash username password origin
 
 ## web-api
 ### WebRTC
