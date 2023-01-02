@@ -8,9 +8,10 @@
   - for(let item of array){}
 - [get]
   - slice() at(:pos)
-- [basic]
-  - join() concat()
+- [str]
+  - join() 
 - [fp]
+  - concat()
   - every()  //[all] \
     some()  //[any]
   - forEach() \
