@@ -36,9 +36,10 @@
 - [array]
   - concat()
   - indexOf() includes()
-  - slice() at()
-- [str]
+  - slice() at() length
+- [basic]
   - split()
+- [str]
   - trim() trimStart() trimEnd() //[strip]
   - charCodeAt() fromCharCode() codePointAt() fromCodePoint()
   - endsWith() startsWith()
