@@ -64,3 +64,47 @@
 - [regex]
   - compile()
   - test() exec()
+
+## Object
+- [oop]
+  - prototype [[proto]] constructor
+- [init]
+  - [literal]
+  - create(:proto, :props_obj)
+- [set]
+  - assign(:dst, ...src)  //[extend/update]
+  - setPrototypeOf()
+- [prop]
+  - defineProperty() defineProperties()
+  - getOwnPropertyDescriptor()
+  - getOwnPropertyNames() getOwnPropertySymbols()
+  - freeze() seal() preventExtensions()
+  - hasOwnProperty()
+  - propertyIsEnumerable()
+  - delete
+- [get]
+  - entries() keys() values()
+  - getPrototypeOf()
+- [misc]
+  - is() isExtensible() isFrozen() isSealed()
+  - isPrototypeOf()
+  - valueOf()
+- [str]
+  - toString() toLocaleString()
+
+### prop descriptor
+- configurable
+- enumerable
+- value writable
+- get set
+#### accessor
+
+---
+---
+---
+- Symbol
+- Map Set WeakMap WeakSet
+- Date
+- Function
+- Proxy Reflect
+- Number Math
