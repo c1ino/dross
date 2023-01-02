@@ -84,9 +84,10 @@
   - hasOwnProperty()
   - delete
   - freeze() seal() preventExtensions()
+    - isExtensible() isFrozen() isSealed()  
   - propertyIsEnumerable()
 - [misc]
-  - is() isExtensible() isFrozen() isSealed()
+  - is() 
 - [str]
   - toString() toLocaleString()
 
