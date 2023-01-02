@@ -68,15 +68,14 @@
 ## Object
 - [oop]
   - prototype [[proto]] constructor
+  - getPrototypeOf() setPrototypeOf() isPrototypeOf()
 - [init]
   - [literal]
   - create(:proto, :props_obj)
 - [set]
   - assign(:dst, ...src)  //[extend/update]
-  - setPrototypeOf()
 - [get]
   - entries() keys() values()
-  - getPrototypeOf()
   - valueOf()
 - [prop]
   - defineProperty() defineProperties()
@@ -88,7 +87,6 @@
   - propertyIsEnumerable()
 - [misc]
   - is() isExtensible() isFrozen() isSealed()
-  - isPrototypeOf()
 - [str]
   - toString() toLocaleString()
 
