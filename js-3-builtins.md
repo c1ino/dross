@@ -76,12 +76,12 @@
   - setPrototypeOf()
 - [prop]
   - defineProperty() defineProperties()
-  - getOwnPropertyDescriptor()
   - getOwnPropertyNames() getOwnPropertySymbols()
-  - freeze() seal() preventExtensions()
+  - getOwnPropertyDescriptor()
   - hasOwnProperty()
-  - propertyIsEnumerable()
   - delete
+  - freeze() seal() preventExtensions()
+  - propertyIsEnumerable()
 - [get]
   - entries() keys() values()
   - getPrototypeOf()
