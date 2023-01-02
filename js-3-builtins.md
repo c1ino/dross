@@ -74,6 +74,10 @@
 - [set]
   - assign(:dst, ...src)  //[extend/update]
   - setPrototypeOf()
+- [get]
+  - entries() keys() values()
+  - getPrototypeOf()
+  - valueOf()
 - [prop]
   - defineProperty() defineProperties()
   - getOwnPropertyNames() getOwnPropertySymbols()
@@ -82,13 +86,9 @@
   - delete
   - freeze() seal() preventExtensions()
   - propertyIsEnumerable()
-- [get]
-  - entries() keys() values()
-  - getPrototypeOf()
 - [misc]
   - is() isExtensible() isFrozen() isSealed()
   - isPrototypeOf()
-  - valueOf()
 - [str]
   - toString() toLocaleString()
 
