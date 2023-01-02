@@ -49,7 +49,18 @@
   - toLowerCase() toUpperCase() toLocaleLowerCase() toLocaleUpperCase()
   - localeCompare()
   - normalize()
+  - raw()
 - [regex]
-  - match() matchAll() search()
+  - search() match() matchAll() 
   - replace() replaceAll()
 - [html]
+
+## RegExp
+- [init]
+  - /regex/flag
+  - new RegExp(:regex, :flag)
+- [attr]
+  - [flags]
+- [regex]
+  - compile()
+  - test() exec()
