@@ -3,15 +3,15 @@
   - from(:iter)
   - Array(:len) Array(...items)
   - of(...items)
+  - concat(arr1, ...)
 - [iter]
   - entries() keys() values() 
   - for(let item of array){}
 - [get]
   - slice() at(:pos)
-- [str]
+- [String]
   - join() 
 - [fp]
-  - concat()
   - every()  //[all] \
     some()  //[any]
   - forEach() \
@@ -38,7 +38,7 @@
   - concat()
   - indexOf() includes()
   - slice() at() length
-- [basic]
+- [Array]
   - split()
 - [str]
   - trim() trimStart() trimEnd() //[strip]
