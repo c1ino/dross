@@ -74,9 +74,9 @@
   - create(:proto, :props_obj)
 - [set]
   - assign(:dst, ...src)  //[extend/update]
-- [get]
+- [iter]
   - entries() keys() values()
-  - valueOf()
+  - for(let prop in obj){}
 - [prop]
   - defineProperty() defineProperties()
   - getOwnPropertyNames() getOwnPropertySymbols()
@@ -86,9 +86,9 @@
   - freeze() seal() preventExtensions()
     - isExtensible() isFrozen() isSealed()  
   - propertyIsEnumerable()
-  - for(let prop in obj){}
 - [misc]
   - is() 
+  - valueOf()
 - [str]
   - toString() toLocaleString()
 
