@@ -96,8 +96,8 @@
 - configurable
 - enumerable
 - value writable
-- get set
-#### accessor
+- [accessor]
+  - get set
 
 ---
 ---
