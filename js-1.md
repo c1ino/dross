@@ -9,6 +9,7 @@
   - [x] (interpolation) f'{str}'
     - \`${template_strings}\`
       - func\`${arg1} template...\`
+  - strip(:chars)
 - [HTML]
   - [x] escape()
 - [URL]
