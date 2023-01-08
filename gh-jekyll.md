@@ -98,9 +98,9 @@
   - Nil
     - [no-literal] [falsy]
   - Array[index]
-    - [no-literal] [falsy]
-  - Object.attr
-    - [no-literal] [falsy]
+    - [no-literal] [truthy]
+  - Object.key
+    - [no-literal] [truthy]
   - EmptyDrop 
     - [no-literal] [truthy]
   - empty
