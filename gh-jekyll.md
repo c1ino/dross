@@ -45,14 +45,17 @@
 - [_collection/]
   - [default-config.yml]
     - output: false
+
 ### misc
 - _data
 - _includes / [Includes | Jekyll](https://jekyllrb.com/docs/includes/)
 - _sass
 - _site
+
 ### theme
 - [Themes | Jekyll](https://jekyllrb.com/docs/themes/)
 - [Supported themes | GitHub Pages](https://pages.github.com/themes/)
+
 
 
 ## Liquid
@@ -67,20 +70,20 @@
   - `{{ var | filter: arg1, ... | ... }}`
 - `{% stmt/tag %}`
   - `{%- autostrip -%}`
-  - flow
+  - [flow]
     - if unless elsis else 
     - case when
-  - iter
+  - [iter]
     - for else break continue
       - limit: offset: range reversed
       - {{forloop}}
     - cycle
     - tablerow
-  - var
+  - [var]
     - assign
     - capture
     - increment decrement
-  - template
+  - [template]
     - comment {% # ...%}
     - raw
     - liquid echo
@@ -99,6 +102,8 @@
   - EmptyDrop 
 - [operator]
   - == != or and contains
+
+
 ### jekyll
 - [variable]
   - site
