@@ -1,4 +1,4 @@
-- _posts / post
+- _posts / [Posts | Jekyll](https://jekyllrb.com/docs/posts/)
   - YEAR-MONTH-DAY-title.MARKUP
   - front-matter / [Front Matter | Jekyll](https://jekyllrb.com/docs/front-matter/)
     - layout
@@ -9,8 +9,9 @@
     - category categories
     - tags
     - excerpt_separator: `<!--more-->`
-- _drafts
-- pages
+  - [*categories/_posts/]
+- _drafts/
+- [/page.ext] / [Pages | Jekyll](https://jekyllrb.com/docs/pages/)
 - _layouts / [Layouts | Jekyll](https://jekyllrb.com/docs/layouts/)
   - default.html
   - [font-matter]
@@ -23,10 +24,12 @@
   - [collections] / [Collections | Jekyll](https://jekyllrb.com/docs/collections/)
     - collections
       - :name
-        - output: `true`
+        - output: `false`
         - order
         - sort_by 
-    - collections_dir: my_collections
+        - permalink / [Permalinks | Jekyll](https://jekyllrb.com/docs/permalinks/#collections)
+        - [font-matter]
+    - collections_dir: `my_collections`
   - page_excerpts: `true`
   - layouts_dir
   - plugins
@@ -37,9 +40,11 @@
   - [flags]
     - show_drafts unpublished future
   - [Default Configuration | Jekyll](https://jekyllrb.com/docs/configuration/default/)
-- assets
-- index.html/md
-- [_collection]
+- assets/
+- index.html index.md
+- [_collection/]
+  - [default-config.yml]
+    - output: false
 ### misc
 - _data
 - _includes / [Includes | Jekyll](https://jekyllrb.com/docs/includes/)
@@ -62,6 +67,7 @@
   - site
     - pages posts 
     - collections categories tags
+      - collections / [Collections | Jekyll](https://jekyllrb.com/docs/collections/#collections)
     - data
     - [_config.yml]
     - [meta]
