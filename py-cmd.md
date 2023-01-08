@@ -13,5 +13,5 @@
   - precmd postcmd preloop postloop
 - [shell]
   - do_*
-  - ? help_* do_help
+  - ? do_help help_*
   - ! do_shell
