@@ -20,3 +20,7 @@
 - [misc]
   - date(:num/:str)
   - default
+
+## jekyll
+- [Liquid Filters | Jekyll](https://jekyllrb.com/docs/liquid/filters/)
+- [Tags Filters | Jekyll](https://jekyllrb.com/docs/liquid/tags/)
