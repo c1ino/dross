@@ -62,6 +62,43 @@
 - tags
 - filters
 - [Jekyll Cheat Sheet | CloudCannon](https://cloudcannon.com/community/jekyll-cheat-sheet/)
+####
+- `{{ expr }}`
+  - `{{ var | filter: arg1, ... | ... }}`
+- `{% stmt/tag %}`
+  - `{%- autostrip -%}`
+  - flow
+    - if unless elsis else 
+    - case when
+  - iter
+    - for else break continue
+      - limit: offset: range reversed
+      - {{forloop}}
+    - cycle
+    - tablerow
+  - var
+    - assign
+    - capture
+    - increment decrement
+  - template
+    - comment {% # ...%}
+    - raw
+    - liquid echo
+    - render (include)
+- [type]
+  - String
+  - Number
+  - Boolean
+    - true false
+  - Nil
+    - [no-literal]
+  - Array
+    - [no-literal]
+  - Object
+    - [no-literal]
+  - EmptyDrop 
+- [operator]
+  - == != or and contains
 ### jekyll
 - [variable]
   - site
