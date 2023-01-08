@@ -155,5 +155,9 @@
     - :basename
 - [categories/page], [categories/_posts]
 - _layouts _includes
+  - _layouts
+    - default
+      - page
+      - post
 - _config.yml
 - _data _plugins
