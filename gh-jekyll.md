@@ -57,7 +57,13 @@
 - _data
 - _includes / [Includes | Jekyll](https://jekyllrb.com/docs/includes/)
 - _sass
-- _plugins
+- _plugins / [Plugins | Jekyll](https://jekyllrb.com/docs/plugins/)
+  - [generator]
+  - [convertor]
+  - [command]
+  - [tag]
+  - [filter]
+  - [hook]
 - _site
 
 ### theme
