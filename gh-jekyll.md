@@ -97,6 +97,7 @@
     - true false
   - Nil
     - [no-literal] [falsy]
+    - (undefined/not-exist)
   - Array[index]
     - [no-literal] [truthy]
   - Object.key
