@@ -115,9 +115,10 @@
 ### jekyll
 - [variable]
   - site
-    - pages posts 
+    - pages posts documents
     - collections categories tags
       - collections / [Collections | Jekyll](https://jekyllrb.com/docs/collections/#collections)
+        - label docs directory output
     - data
     - [_config.yml]
     - [meta]
