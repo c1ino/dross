@@ -50,6 +50,7 @@
 - _data
 - _includes / [Includes | Jekyll](https://jekyllrb.com/docs/includes/)
 - _sass
+- _plugins
 - _site
 
 ### theme
