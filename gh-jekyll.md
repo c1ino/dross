@@ -1,23 +1,22 @@
-- _posts
-  - post
-    - YEAR-MONTH-DAY-title.MARKUP
-    - front-matter / [Front Matter | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/front-matter/)
-      - layout
-      - title
-      - permalink
-      - published
-      - date: `YYYY-MM-DD HH:MM:SS +/-TTTT`
-      - category categories
-      - tags
-      - excerpt_separator: `<!--more-->`
+- _posts / post
+  - YEAR-MONTH-DAY-title.MARKUP
+  - front-matter / [Front Matter | Jekyll](https://jekyllrb.com/docs/front-matter/)
+    - layout
+    - title
+    - permalink
+    - published
+    - date: `YYYY-MM-DD HH:MM:SS +/-TTTT`
+    - category categories
+    - tags
+    - excerpt_separator: `<!--more-->`
 - _layouts
 - _drafts
 - _config.yml
   - defaults
-    - [Front Matter Defaults | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+    - [Front Matter Defaults | Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
   - permalink: `/:categories/:year/:month/:day/:title:output_ext`
     - :basename
-    - [Permalinks | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/permalinks/)
+    - [Permalinks | Jekyll](https://jekyllrb.com/docs/permalinks/)
   - collections
 - assets
 
