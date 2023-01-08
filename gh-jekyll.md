@@ -62,7 +62,7 @@
 - tags
 - filters
 - [Jekyll Cheat Sheet | CloudCannon](https://cloudcannon.com/community/jekyll-cheat-sheet/)
-####
+#### cheatsheet
 - `{{ expr }}`
   - `{{ var | filter: arg1, ... | ... }}`
 - `{% stmt/tag %}`
