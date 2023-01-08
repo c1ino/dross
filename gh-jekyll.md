@@ -24,6 +24,11 @@
   - collections_dir: my_collections
   - page_excerpts: `true`
 - assets
+- index.html/md
+### misc
+- _data
+- _includes
+- _sass
 
 ## Liquid
 - {{ variable }}
