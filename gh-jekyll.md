@@ -19,6 +19,12 @@
     - [Variables] layout
 - _config.yml
   - defaults / [Front Matter Defaults | Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+    - scope:
+      - path: "" / "dir"
+        - "dir/*/globfile" ((3.7.0))
+      - type: posts / pages / drafts / [collection]
+    - values:
+      - [font-matter]:
   - permalink / [Permalinks | Jekyll](https://jekyllrb.com/docs/permalinks/)
     - `/:categories/:year/:month/:day/:title:output_ext`
   - [collections] / [Collections | Jekyll](https://jekyllrb.com/docs/collections/)
