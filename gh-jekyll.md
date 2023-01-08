@@ -11,13 +11,18 @@
     - excerpt_separator: `<!--more-->`
 - _layouts
 - _drafts
+- pages
 - _config.yml
-  - defaults
-    - [Front Matter Defaults | Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
-  - permalink: `/:categories/:year/:month/:day/:title:output_ext`
-    - :basename
-    - [Permalinks | Jekyll](https://jekyllrb.com/docs/permalinks/)
-  - collections
+  - defaults / [Front Matter Defaults | Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+  - permalink / [Permalinks | Jekyll](https://jekyllrb.com/docs/permalinks/)
+    - `/:categories/:year/:month/:day/:title:output_ext`
+  - collections / [Collections | Jekyll](https://jekyllrb.com/docs/collections/)
+    - :name
+      - output: `true`
+      - order
+      - sort_by 
+  - collections_dir: my_collections
+  - page_excerpts: `true`
 - assets
 
 ## Liquid
