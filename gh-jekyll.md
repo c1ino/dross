@@ -148,12 +148,12 @@
 
 
 ## simple
-- _collections
+- [_collections]
   - _posts _drafts
     - :date :categories
   - pages _collection
     - :basename
-- categories/page, categories/_posts
+- [categories/page], [categories/_posts]
 - _layouts _includes
 - _config.yml
 - _data _plugins
