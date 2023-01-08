@@ -17,7 +17,7 @@
   - [font-matter]
     - [Inheritance]
     - [Variables] layout
-- _config.yml
+- _config.yml / [Configuration Options | Jekyll](https://jekyllrb.com/docs/configuration/options/)
   - defaults / [Front Matter Defaults | Jekyll](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
     - scope:
       - path: "" / "dir"
