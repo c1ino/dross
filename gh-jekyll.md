@@ -34,6 +34,9 @@
   - [paginate] / [Pagination | Jekyll](https://jekyllrb.com/docs/pagination/)
     - paginate
     - paginate_path: `"/blog/page:num/"`
+  - [flags]
+    - show_drafts unpublished future
+  - [Default Configuration | Jekyll](https://jekyllrb.com/docs/configuration/default/)
 - assets
 - index.html/md
 ### misc
