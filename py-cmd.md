@@ -15,3 +15,10 @@
   - `do_*`
   - `?` `do_help` `help_*`
   - `!` `do_shell`
+- [attr]
+  - prompt \
+    intro
+  - cmdqueue lastcmd  
+  - ruler doc_header misc_header undoc_header
+  - use_rawinput
+  - identchars
