@@ -33,12 +33,13 @@
   - page_excerpts: `true`
   - layouts_dir
   - plugins
-  - theme
+  - theme remote_theme
   - [paginate] / [Pagination | Jekyll](https://jekyllrb.com/docs/pagination/)
     - paginate
     - paginate_path: `"/blog/page:num/"`
   - [flags]
     - show_drafts unpublished future
+  - include exclude
   - [Default Configuration | Jekyll](https://jekyllrb.com/docs/configuration/default/)
 - assets/
 - index.html index.md
@@ -60,6 +61,40 @@
 
 
 ## Liquid
+
+
+### jekyll
+- [variable]
+  - site
+    - pages posts documents
+    - collections categories tags
+      - collections / [Collections | Jekyll](https://jekyllrb.com/docs/collections/#collections)
+        - label docs directory output
+    - data
+    - [_config.yml]
+    - [meta]
+  - page
+    - collection tags category categories
+    - path dir name 
+    - url id date
+    - next previous
+    - title content excerpt
+    - [page.font-matter]
+  - layout
+  - theme
+  - [misc]
+    - paginator
+    - content
+- [include]
+  - {% include footer.html %}
+  - {% include_relative somedir/footer.html %}
+  - {% include {{ page.my_variable }} %}
+  - {{ include.content }}
+- [layout]
+  - {{ content }}
+  - page 
+
+
 ### grammar
 - {{ variable }}
 - {% if statement %}
@@ -112,36 +147,6 @@
   - == != or and contains
 
 
-### jekyll
-- [variable]
-  - site
-    - pages posts documents
-    - collections categories tags
-      - collections / [Collections | Jekyll](https://jekyllrb.com/docs/collections/#collections)
-        - label docs directory output
-    - data
-    - [_config.yml]
-    - [meta]
-  - page
-    - collection tags category categories
-    - path dir name 
-    - url id date
-    - next previous
-    - title content excerpt
-    - [page.font-matter]
-  - layout
-  - theme
-  - [misc]
-    - paginator
-    - content
-- [include]
-  - {% include footer.html %}
-  - {% include_relative somedir/footer.html %}
-  - {% include {{ page.my_variable }} %}
-  - {{ include.content }}
-- [layout]
-  - {{ content }}
-  - page 
 
 ## github-pages
 - [关于 GitHub 页面和 Jekyll - GitHub Docs](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
