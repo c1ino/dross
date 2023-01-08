@@ -90,16 +90,22 @@
     - render (include)
 - [type]
   - String
+    - [truthy]
   - Number
+    - [truthy]
   - Boolean
     - true false
   - Nil
-    - [no-literal]
-  - Array
-    - [no-literal]
-  - Object
-    - [no-literal]
+    - [no-literal] [falsy]
+  - Array[index]
+    - [no-literal] [falsy]
+  - Object.attr
+    - [no-literal] [falsy]
   - EmptyDrop 
+    - [no-literal] [truthy]
+  - empty
+    - [truthy]
+    - (empty-array/string)
 - [operator]
   - == != or and contains
 
