@@ -11,3 +11,7 @@
   - completedefault(text, line, begidx, endidx)
 - [hook]
   - precmd postcmd preloop postloop
+- [shell]
+  - do_*
+  - ? do_help
+  - ! do_shell
