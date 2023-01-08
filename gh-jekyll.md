@@ -154,11 +154,6 @@
 
 
 
-## github-pages
-- [关于 GitHub 页面和 Jekyll - GitHub Docs](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
-- [Using site.github | GitHub Metadata](https://jekyll.github.io/github-metadata/site.github/)
-
-
 ## simple
 - [_collections]
   - _posts _drafts
@@ -173,3 +168,10 @@
       - post
 - _config.yml
 - _data _plugins
+
+
+## github-pages
+- [关于 GitHub 页面和 Jekyll - GitHub Docs](https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+- [Using site.github | GitHub Metadata](https://jekyll.github.io/github-metadata/site.github/)
+- [Dependency versions | GitHub Pages](https://pages.github.com/versions/)
+
