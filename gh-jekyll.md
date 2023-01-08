@@ -39,6 +39,7 @@
   - [Default Configuration | Jekyll](https://jekyllrb.com/docs/configuration/default/)
 - assets
 - index.html/md
+- [_collection]
 ### misc
 - _data
 - _includes / [Includes | Jekyll](https://jekyllrb.com/docs/includes/)
@@ -57,6 +58,25 @@
 - filters
 - [Jekyll Cheat Sheet | CloudCannon](https://cloudcannon.com/community/jekyll-cheat-sheet/)
 ### jekyll
+- [variable]
+  - site
+    - pages posts 
+    - collections categories tags
+    - data
+    - [_config.yml]
+    - [meta]
+  - page
+    - collection tags category categories
+    - path dir name 
+    - url id date
+    - next previous
+    - title content excerpt
+    - [page.font-matter]
+  - layout
+  - theme
+  - [misc]
+    - paginator
+    - content
 - [include]
   - {% include footer.html %}
   - {% include_relative somedir/footer.html %}
