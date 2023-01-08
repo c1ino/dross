@@ -1,1 +1,16 @@
 ## filters
+- [str]
+  - append prepend 
+  - capitalize downcase upcase escape escape_once lstrip rstrip newline_to_br 
+  - remove remove_first replace replcae_first split strip strip_html strip_newlines
+  - truncate truncatewords 
+  - url_decode url_encode
+- [number]
+  - abs at_least at_most ceil divided_by floor minus modulo plus round times
+- [array]
+  - compact concat first last join map reverse sort sort_natural uniq where
+- [iter]
+  - size slice
+- [misc]
+  - date(:num/:str)
+  - default
