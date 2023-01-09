@@ -176,8 +176,8 @@
 - _data _plugins
 ###
 - dynamic/render
-  - page
-  - collection 
+  - pages
+  - collection/documents
     - posts drafts  
 - static/resource
 
