@@ -181,7 +181,7 @@
     - posts drafts  
 - static/resource
   - static_files
-### [language]
+### [code]
 - compile-time
   - liquid - template
   - ruby - plugin
