@@ -180,6 +180,7 @@
   - collection/documents
     - posts drafts  
 - static/resource
+  - static_files
 
 
 ## github-pages
