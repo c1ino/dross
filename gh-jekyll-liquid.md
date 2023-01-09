@@ -24,3 +24,17 @@
 ## jekyll
 - [Liquid Filters | Jekyll](https://jekyllrb.com/docs/liquid/filters/)
 - [Tags Filters | Jekyll](https://jekyllrb.com/docs/liquid/tags/)
+### filters
+- [misc]
+  - jsonify
+- [array]
+  - push
+- [string]
+  - absolute_url relative_url
+  - markdownify slugify smartify
+  - number_of_words
+### tags
+- highlight
+- include_relative
+- link
+- post_url
