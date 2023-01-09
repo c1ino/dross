@@ -174,13 +174,19 @@
       - post
 - _config.yml
 - _data _plugins
-###
+### [type]
 - dynamic/render
   - pages
   - collection/documents
     - posts drafts  
 - static/resource
   - static_files
+### [language]
+- compile-time
+  - liquid - template
+  - ruby - plugin
+- runtime
+  - js - client
 
 
 ## github-pages
