@@ -119,7 +119,7 @@
 - `{% stmt/tag %}`
   - `{%- autostrip -%}`
   - [flow]
-    - if unless elsis else 
+    - if unless elsif else 
     - case when
   - [iter]
     - for else break continue
@@ -174,6 +174,12 @@
       - post
 - _config.yml
 - _data _plugins
+###
+- dynamic/render
+  - page
+  - collection 
+    - posts drafts  
+- static/resource
 
 
 ## github-pages
