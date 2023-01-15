@@ -26,13 +26,17 @@
 - [Tags Filters | Jekyll](https://jekyllrb.com/docs/liquid/tags/)
 ### filters
 - [misc]
-  - jsonify
+  - jsonify 
+  - inspect
 - [array]
-  - push
+  - push pop shift unshift
+  - sample
 - [string]
   - absolute_url relative_url
   - markdownify slugify smartify
   - number_of_words
+  - normalize_whitespace
+  - to_integer
 ### tags
 - highlight
 - include_relative
