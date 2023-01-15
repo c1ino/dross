@@ -46,7 +46,7 @@
   - [flags]
     - show_drafts unpublished future
   - include exclude
-  - csv_reader tsv_reader
+  - csv_reader tsv_reader / [Data Files | Jekyll](https://jekyllrb.com/docs/datafiles/#csvtsv-parse-options)
   - [Default Configuration | Jekyll](https://jekyllrb.com/docs/configuration/default/)
 - assets/
 - index.html index.md
