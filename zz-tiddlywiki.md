@@ -42,6 +42,7 @@
   - Styles and Classes ((样式与类))
     - `@@style:val;/.class \n...\n @@`
 - TextReference ((文本引用))
+- Filter ((过滤器))
 - Messages ((部件消息/事件))
 - Macros ((宏))
 - Widgets ((部件))
@@ -125,8 +126,8 @@
 - [TiddlyWiki Architecture | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#TiddlyWiki Architecture>)
 
 ## see-also
-- [TiddlyWiki](<https://tiddlywiki.com/>)
-- [TiddlyWiki/Dev](<https://tiddlywiki.com/dev/>)
+- [TiddlyWiki — a non-linear personal web notebook](<https://tiddlywiki.com/>)
+- [TiddlyWiki/Dev — documentation for developers](<https://tiddlywiki.com/dev/>)
 - [TiddlyWiki 舞 — 基礎文件正體中文版](https://tw5-zh.tiddlyspot.com/)
 - [(ver.5.1.15) TiddlyWiki — 非线性个人网络笔记本](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
   - [(http) TiddlyWiki — 非线性个人网络笔记本](http://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
