@@ -3,10 +3,11 @@
 - Filters
   - `[operator[parameter]]`  
 - Macros
-  - `\define name(para) \end`
+  - `\define name(param) \end`
   - `<<name arg>>`
 - Variables
   - `<<var>>`
+  - `$var$` `$(var)$` `<<var>>` `<<__var__>>`
 - Widgets
   - `<$name para=arg> slot </name>`
   - `<$name para=arg/>`
@@ -26,7 +27,7 @@
   - (*.js)
 - Plugins ((插件))
   - `$:/plugins/publisher/name`
-- Pragma
+- Pragma ((编译指示))
 - WikiText
   - Transclusion ((嵌入))
     - `{{tiddler!!field}}`
@@ -43,10 +44,18 @@
 #### Plugins
 - $:/core
 - railroad
+### Modules
+- exports
+  - name: macro_name
+  - params: [list]
+    - name: param_name
+    - default
+  - run: func 
 ## tree
 - WikiText
   - Widget
     - Macro
+      - Module
     - Message
     - Variable
   - TextReference
