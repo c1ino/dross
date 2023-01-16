@@ -49,7 +49,7 @@
 ## 216色
 - red+
   - salmon* 鲑鱼
-  - coral- 珊瑚
+  - lightCoral 珊瑚
   - indian%
   - crimson 猩红
   - fireBrick 火砖
@@ -72,6 +72,7 @@
     - sienna 赭黄
     - maroon 栗色/褐红/褐紫红
 - orange+
+  - coral
   - tomato
   - orangeRed
 - yellow-
