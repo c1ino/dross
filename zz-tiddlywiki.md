@@ -120,6 +120,8 @@
     - Data Tiddler
     - Module Tiddler
     - (Template Tiddler)
+- System
+  - core config plugins theme language
 ## data-struct
 - [Data Storage in Single File TiddlyWiki | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Data Storage in Single File TiddlyWiki>)
 - [Datamodel | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Datamodel>)
