@@ -18,7 +18,7 @@
 ## Concept
 - Tiddlers ((条目))
   - TiddlerFields ((字段))
-  - Tagging ((标签))
+  - Tagging ((添加标签))
   - SystemTiddlers ((系统条目))
   - ShadowTiddlers ((影子条目))
   - DataTiddlers ((数据条目))
@@ -27,7 +27,7 @@
   - (*.js)
 - Plugins ((插件))
   - `$:/plugins/publisher/name`
-- Pragma ((编译指示))
+- Pragma ((编译指令))
 - WikiText
   - Transclusion ((嵌入))
     - `{{tiddler!!field}}`
@@ -37,8 +37,13 @@
   - Typed Blocks 
   - Links
   - CSS
-- TextReference
-- Messages ((消息/事件))
+- TextReference ((文本引用))
+- Messages ((部件消息/事件))
+- Macros ((宏))
+- Widgets ((部件))
+- Variables ((变量))
+- Commands ((命令行命令))
+- Mechanisms ((机制))
 ### SystemTiddlers
 / [SystemTiddlers | TiddlyWiki](<https://tiddlywiki.com/#SystemTiddlers>)
 
@@ -118,6 +123,7 @@
 ## see-also
 - [TiddlyWiki](<https://tiddlywiki.com/>)
 - [TiddlyWiki/Dev](<https://tiddlywiki.com/dev/>)
-- [TiddlyWiki 舞 — 基礎文件正體中文版](http://tw5-zh.tiddlyspot.com/)
+- [TiddlyWiki 舞 — 基礎文件正體中文版](https://tw5-zh.tiddlyspot.com/)
 - [(ver.5.1.15) TiddlyWiki — 非线性个人网络笔记本](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
   - [(http) TiddlyWiki — 非线性个人网络笔记本](http://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
+- [(http) TiddlyWiki 备忘录 — 官网副本中文版 • 2021年11月1日](http://tiddlywiki.cn/)
