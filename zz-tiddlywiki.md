@@ -44,13 +44,15 @@
 #### Plugins
 - $:/core
 - railroad
-### Modules
+### Modules 
+/ [JavaScript Macros | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/index.html#JavaScript Macros>)
 - exports
   - name: macro_name
   - params: [list]
     - name: param_name
     - default
   - run: func 
+
 ## tree
 - WikiText
   - Widget
