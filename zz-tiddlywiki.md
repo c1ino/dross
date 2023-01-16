@@ -65,18 +65,18 @@
   - $:/StoryList 
   - $:/HistoryList
 - [Naming of System Tiddlers | TiddlyWiki](<https://tiddlywiki.com/#Naming of System Tiddlers>)
-#### Plugins
+### Plugins
 - :plugin-type
   - plugin theme language import info
 - /plugin.info
 - [Developing plugins using Node.js and GitHub | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Developing plugins using Node.js and GitHub>)
-##### misc
+#### misc
 - $:/core
 - railroad
 ### Modules 
 / [Modules | TiddlyWiki](https://tiddlywiki.com/#Modules)
 
-- module-type / [ModuleType | TiddlyWiki](https://tiddlywiki.com/#ModuleType)
+- :module-type / [ModuleType | TiddlyWiki](https://tiddlywiki.com/#ModuleType)
 - Macro.exports
   - name: macro_name
   - params: [list]
