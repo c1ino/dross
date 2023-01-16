@@ -22,21 +22,25 @@
   - SystemTiddlers ((系统条目))
   - ShadowTiddlers ((影子条目))
   - DataTiddlers ((数据条目))
-  - (TemplateTiddlers) ((模板条目))
+  - (TemplateTiddlers) ((条目模板))
 - Modules ((模块))
   - (*.js)
 - Plugins ((插件))
   - `$:/plugins/publisher/name`
 - Pragma ((编译指令))
 - WikiText
-  - Transclusion ((嵌入))
+  - Transclusion ((嵌入)) (独立渲染)
     - `{{tiddler!!field}}`
     - `{{tiddler||template_tiddler}}`
-  - Substitution ((替换))
+  - Substitution ((替换)) (预处理)
     - (Macro, Variable)
-  - Typed Blocks 
-  - Links
-  - CSS
+  - Typed Blocks ((类型区块))
+    - `$$$content-type/.ext \n...\n $$$`
+  - Links ((链接))
+    - Hard (literal)
+    - Soft (dynamic-render)
+  - Styles and Classes ((样式与类))
+    - `@@style:val;/.class \n...\n @@`
 - TextReference ((文本引用))
 - Messages ((部件消息/事件))
 - Macros ((宏))
