@@ -57,30 +57,30 @@
     - hot% deep%
     - violetRed
       - pale% medium%
-  - brown 棕褐
-    - cornsilk
-    - blanchedAlmond
+  - brown 棕/褐
+    - cornsilk 玉米须
+    - blanchedAlmond 白杏仁
     - bisque 浓汤
     - navajoWhite
     - wheat
-    - burlyWood
-    - tan
+    - burlyWood 硬木
+    - tan 棕褐
     - rosy% sandy% saddle%
-    - goldenrod+
+    - goldenrod+ 金菊/鲜黄
     - peru
     - chocolate
     - sienna 赭黄
-    - maroon
+    - maroon 栗色/褐红
 - orange+
   - tomato
   - orangeRed
 - yellow-
-  - lemonChiffon
+  - lemonChiffon 柠檬戚风
   - goldenrod
     - pale% light%
   - papayaWhip 番木瓜
-  - moccasin
-  - peachPuff
+  - moccasin 鹿皮鞋
+  - peachPuff 桃
   - khaki+ 卡其布
   - gold
 - green*
@@ -90,24 +90,25 @@
     - seaGreen*
       - _ medium%
   - chartreuse 查特酒
-  - lime
-  - aquamarine
-    - medium%
+  - lime 青柠
+  - aquamarine 碧绿
+    - _ medium%
   - olive
     - _ %drab dark%Green
-  - teal
+  - teal 深青
 - blue*
-  - powder% cadet% royal% medium% midnight% 
+  - cadet% royal% medium% midnight%
+    - powder% 粉末蓝/浅灰蓝
     - dodger% 道奇
     - cornflower% 矢车菊
-    - steelBlue-
+    - steelBlue- 钢蓝/刚青
     - skyBlue-
       - _ deep%
   - turquoise 绿松石
     - _ pale% medium% dark%
   - cyan*
     - aqua
-  - navy
+  - navy 藏青
 - purple
   - lacender
   - thistle
