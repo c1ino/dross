@@ -59,8 +59,8 @@
 - :plugin-type
   - plugin theme language import info
 - /plugin.info
-##### misc
 - [Developing plugins using Node.js and GitHub | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Developing plugins using Node.js and GitHub>)
+##### misc
 - $:/core
 - railroad
 ### Modules 
