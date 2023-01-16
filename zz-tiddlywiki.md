@@ -16,12 +16,12 @@
   - Mechanisms
 ## Concept
 - Tiddlers ((条目))
-  - SystemTiddlers 
-  - ShadowTiddlers
-  - DataTiddlers
-  - TemplateTiddlers
-  - Tagging
-  - TiddlerFields
+  - TiddlerFields ((字段))
+  - Tagging ((标签))
+  - SystemTiddlers ((系统条目))
+  - ShadowTiddlers ((影子条目))
+  - DataTiddlers ((数据条目))
+  - (TemplateTiddlers) ((模板条目))
 - Modules ((模块))
   - (*.js)
 - Plugins ((插件))
@@ -60,5 +60,5 @@
       - Plugin
         - Shadow Tiddler
     - Data Tiddler
-    - Template Tiddler
     - Module Tiddler
+    - (Template Tiddler)
