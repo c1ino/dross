@@ -77,7 +77,7 @@
 ####
 - [JavaScript Macros | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/index.html#JavaScript Macros>)
 - [TiddlyWiki5/core/modules/macros at master · Jermolene/TiddlyWiki5](https://github.com/Jermolene/TiddlyWiki5/tree/master/core/modules/macros)
-- [Module System | TiddlyWiki/Dev](https://tiddlywiki.com/dev/#Module System)
+- [Module System | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Module System>)
 
 ### Messages
 / [Messages | TiddlyWiki/Dev](https://tiddlywiki.com/dev/#Messages)
