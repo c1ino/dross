@@ -57,7 +57,20 @@
     - hot% deep%
     - violetRed
       - pale% medium%
-  - brown
+  - brown 棕褐
+    - cornsilk
+    - blanchedAlmond
+    - bisque
+    - navajoWhite
+    - wheat
+    - burlyWood
+    - tan
+    - rosy% sandy% saddle%
+    - goldenrod+
+    - peru
+    - chocolate
+    - sienna
+    - maroon
 - orange+
   - tomato
   - orangeRed
@@ -111,4 +124,23 @@
   - slateBlue
     - _ medium% dark%
   - indigo 靛蓝
-  
+- white
+  - snow
+  - honeydew
+  - mintCream
+  - azure
+  - aliceBlue
+  - ghost% %smoke floral% antique%
+  - seashell
+  - beige
+  - oldLace
+  - ivory
+  - linen
+  - lacenderBlush
+  - mistyRose
+- gray*
+  - gainsboro
+  - silver
+  - dim%
+    - slateGray*
+  - black
