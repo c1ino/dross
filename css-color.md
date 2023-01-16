@@ -114,7 +114,7 @@
   - lacender 薰衣草
   - thistle 蓟
   - plum 李子
-  - violet 紫罗兰
+  - violet 紫罗兰/堇紫
     - _ blue% dark%
   - orchid 兰花
     - _ medium% dark%
@@ -151,3 +151,5 @@
 - [网页颜色 - 维基百科](https://zh.wikipedia.org/wiki/网页颜色)
 - [颜色列表 - 维基百科](https://zh.wikipedia.org/wiki/颜色列表)
 - [ANSI转义序列 - 维基百科](https://zh.wikipedia.org/wiki/ANSI转义序列#8位)
+- [日本传统色系 - 维基百科](https://zh.wikipedia.org/wiki/日本传统色系)
+- [中国传统色彩 - 维基百科](https://zh.wikipedia.org/wiki/中国传统色彩)
