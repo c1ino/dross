@@ -3,7 +3,7 @@
 - 22
 - 216 (safe)
 
-## 16
+## 16色
 - 红/R
   - red / marron
 - 黄/Y
@@ -20,7 +20,7 @@
   - white / silver
 - 灰
   - gray / black / (grey)
-## x11
+## x11 / 216色
 - 1.__[红]__ (Red)
   - 7.粉 (Pink)
   - 8.棕 (Brown)
