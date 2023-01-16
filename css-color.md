@@ -146,3 +146,8 @@
   - dim%
     - slateGray*
   - black
+
+## see also
+- [网页颜色 - 维基百科](https://zh.wikipedia.org/wiki/网页颜色)
+- [颜色列表 - 维基百科](https://zh.wikipedia.org/wiki/颜色列表)
+- [ANSI转义序列 - 维基百科](https://zh.wikipedia.org/wiki/ANSI转义序列#8位)
