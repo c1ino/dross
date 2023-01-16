@@ -37,12 +37,12 @@
   - Typed Blocks ((类型区块))
     - `$$$content-type/.ext \n...\n $$$`
   - Links ((链接))
-    - Hard (literal)
+    - Hard (literal-static)
     - Soft (dynamic-render)
   - Styles and Classes ((样式与类))
     - `@@style:val;/.class \n...\n @@`
 - TextReference ((文本引用))
-- Filter ((过滤器))
+- Filters ((过滤器))
 - Messages ((部件消息/事件))
 - Macros ((宏))
 - Widgets ((部件))
