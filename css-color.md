@@ -70,7 +70,7 @@
     - peru
     - chocolate
     - sienna 赭黄
-    - maroon 栗色/褐红
+    - maroon 栗色/褐红/褐紫红
 - orange+
   - tomato
   - orangeRed
@@ -90,57 +90,57 @@
     - seaGreen*
       - _ medium%
   - chartreuse 查特酒
-  - lime 青柠
+  - lime 青柠/草绿
   - aquamarine 碧绿
     - _ medium%
   - olive
     - _ %drab dark%Green
-  - teal 深青
+  - teal 深青/蓝绿/青绿/鸭绿
 - blue*
   - cadet% royal% medium% midnight%
     - powder% 粉末蓝/浅灰蓝
     - dodger% 道奇
     - cornflower% 矢车菊
-    - steelBlue- 钢蓝/刚青
+    - steelBlue- 钢蓝/钢青
     - skyBlue-
       - _ deep%
   - turquoise 绿松石
     - _ pale% medium% dark%
-  - cyan*
-    - aqua
+  - cyan* 天青
+    - aqua 水蓝
   - navy 藏青
 - purple
-  - lacender
-  - thistle
+  - lacender 薰衣草
+  - thistle 蓟
   - plum 李子
   - violet 紫罗兰
     - _ blue% dark%
   - orchid 兰花
     - _ medium% dark%
-  - fuchsia
+  - fuchsia 品红/灯笼海棠
     - magenta 洋红
       - _ dark%
   - medium%
   - amethyst 紫水晶
   - slateBlue
     - _ medium% dark%
-  - indigo 靛蓝
+  - indigo 靛蓝/紫蓝
 - white
   - snow
   - honeydew
-  - mintCream
+  - mintCream 薄荷奶油
   - azure 天蓝/蔚蓝
   - aliceBlue
   - ghost% %smoke floral% antique%
   - seashell
-  - beige 
+  - beige 米色
   - oldLace
   - ivory 象牙
   - linen 亚麻
   - lacenderBlush
   - mistyRose
 - gray*
-  - gainsboro
+  - gainsboro 亮灰/庚斯博罗灰
   - silver
   - dim%
     - slateGray*
