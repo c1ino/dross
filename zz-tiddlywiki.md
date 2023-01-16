@@ -3,7 +3,7 @@
 - Filters
   - `[operator[parameter]]`  
 - Macros
-  - `\define name(param) \end`
+  - `\define name(param) \n...\n \end`
   - `<<name arg>>`
 - Variables
   - `<<var>>`
@@ -15,7 +15,7 @@
 - [misc]
   - Commands
   - Mechanisms
-## Concept
+## Concepts
 - Tiddlers ((条目))
   - TiddlerFields ((字段))
   - Tagging ((添加标签))
