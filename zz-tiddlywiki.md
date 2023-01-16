@@ -91,9 +91,9 @@
 - WikiText
   - Widget
     - Macro
-      - Module
     - Variable
     - Message
+    - Module
   - TextReference
   - Filter
     - [Title List]
