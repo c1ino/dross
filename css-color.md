@@ -70,22 +70,43 @@
   - peachPuff
   - khaki+ 卡其布
   - gold
-- green
-- blue
+- green*
+  - pale% yellow% %yellow lawn% lime% forest%
+  - chartreuse
+  - lime
+  - springGreen
+    - _ medium%
+  - aquamarine
+    - medium%
+  - seaGreen*
+    - _ medium%
+  - olive
+    - _ %drab dark%Green
+  - teal
+- blue*
+  - powder% cadet% dodger% cornflower% royal% medium% midnight%
+  - turquoise
+    - _ pale% medium% dark%
+  - cyan*
+    - aqua
+  - steelBlue-
+  - skyBlue-
+    - _ deep%
+  - navy
 - purple
   - lacender
   - thistle
-  - plum
-  - violet
+  - plum 李子
+  - violet 紫罗兰
     - _ blue% dark%
-  - orchid
+  - orchid 兰花
     - _ medium% dark%
   - fuchsia
     - magenta 洋红
       - _ dark%
   - medium%
-  - amethyst
+  - amethyst 紫水晶
   - slateBlue
     - _ medium% dark%
-  - indigo
+  - indigo 靛蓝
   
