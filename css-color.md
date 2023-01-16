@@ -72,7 +72,7 @@
   - gold
 - green*
   - pale% yellow% %yellow lawn% lime% forest%
-  - chartreuse
+  - chartreuse 查特酒
   - lime
   - springGreen
     - _ medium%
@@ -84,8 +84,10 @@
     - _ %drab dark%Green
   - teal
 - blue*
-  - powder% cadet% dodger% cornflower% royal% medium% midnight%
-  - turquoise
+  - powder% cadet% royal% medium% midnight% 
+    - dodger% 道奇
+    - cornflower% 矢车菊
+  - turquoise 绿松石
     - _ pale% medium% dark%
   - cyan*
     - aqua
