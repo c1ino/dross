@@ -60,7 +60,7 @@
   - brown 棕褐
     - cornsilk
     - blanchedAlmond
-    - bisque
+    - bisque 浓汤
     - navajoWhite
     - wheat
     - burlyWood
@@ -69,7 +69,7 @@
     - goldenrod+
     - peru
     - chocolate
-    - sienna
+    - sienna 赭黄
     - maroon
 - orange+
   - tomato
@@ -128,14 +128,14 @@
   - snow
   - honeydew
   - mintCream
-  - azure
+  - azure 天蓝/蔚蓝
   - aliceBlue
   - ghost% %smoke floral% antique%
   - seashell
-  - beige
+  - beige 
   - oldLace
-  - ivory
-  - linen
+  - ivory 象牙
+  - linen 亚麻
   - lacenderBlush
   - mistyRose
 - gray*
