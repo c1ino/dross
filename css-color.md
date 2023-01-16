@@ -85,14 +85,14 @@
   - gold
 - green*
   - pale% yellow% %yellow lawn% lime% forest%
+    - springGreen
+      - _ medium%
+    - seaGreen*
+      - _ medium%
   - chartreuse 查特酒
   - lime
-  - springGreen
-    - _ medium%
   - aquamarine
     - medium%
-  - seaGreen*
-    - _ medium%
   - olive
     - _ %drab dark%Green
   - teal
@@ -100,13 +100,13 @@
   - powder% cadet% royal% medium% midnight% 
     - dodger% 道奇
     - cornflower% 矢车菊
+    - steelBlue-
+    - skyBlue-
+      - _ deep%
   - turquoise 绿松石
     - _ pale% medium% dark%
   - cyan*
     - aqua
-  - steelBlue-
-  - skyBlue-
-    - _ deep%
   - navy
 - purple
   - lacender
