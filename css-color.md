@@ -45,3 +45,47 @@
   - YY 双副色系
 - XXY 双主色系
 - XXX 灰色系
+
+## 216色
+- red+
+  - salmon* 鲑鱼
+  - coral- 珊瑚
+  - indian%
+  - crimson 猩红
+  - fireBrick 火砖
+  - pink-
+    - hot% deep%
+    - violetRed
+      - pale% medium%
+  - brown
+- orange+
+  - tomato
+  - orangeRed
+- yellow-
+  - lemonChiffon
+  - goldenrod
+    - pale% light%
+  - papayaWhip 番木瓜
+  - moccasin
+  - peachPuff
+  - khaki+ 卡其布
+  - gold
+- green
+- blue
+- purple
+  - lacender
+  - thistle
+  - plum
+  - violet
+    - _ blue% dark%
+  - orchid
+    - _ medium% dark%
+  - fuchsia
+    - magenta 洋红
+      - _ dark%
+  - medium%
+  - amethyst
+  - slateBlue
+    - _ medium% dark%
+  - indigo
+  
