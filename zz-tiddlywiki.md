@@ -53,19 +53,32 @@
   - $:/StoryList 
   - $:/HistoryList
 #### Plugins
+- :plugin-type
+  - plugin theme language import info
+- /plugin.info
+##### misc
+- [Developing plugins using Node.js and GitHub | TiddlyWiki/Dev](https://tiddlywiki.com/dev/#Developing plugins using Node.js and GitHub)
 - $:/core
 - railroad
 ### Modules 
-/ [JavaScript Macros | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/index.html#JavaScript Macros>)
+/ [Modules | TiddlyWiki](https://tiddlywiki.com/#Modules)
 
-- exports
+- module-type / [ModuleType | TiddlyWiki](https://tiddlywiki.com/#ModuleType)
+- Macro.exports
   - name: macro_name
   - params: [list]
     - name: param_name
     - default
   - run: func 
+- Widget.exports
+  - [:widget_name] = factory()
+    - prototype = new require("$:/core/modules/widgets/widget.js").widget()
+      - render() refresh()  
+####
+- [JavaScript Macros | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/index.html#JavaScript Macros>)
+- [TiddlyWiki5/core/modules/macros at master · Jermolene/TiddlyWiki5](https://github.com/Jermolene/TiddlyWiki5/tree/master/core/modules/macros)
+- [Module System | TiddlyWiki/Dev](https://tiddlywiki.com/dev/#Module System)
 
-[TiddlyWiki5/core/modules/macros at master · Jermolene/TiddlyWiki5](https://github.com/Jermolene/TiddlyWiki5/tree/master/core/modules/macros)
 ### Messages
 / [Messages | TiddlyWiki/Dev](https://tiddlywiki.com/dev/#Messages)
 
