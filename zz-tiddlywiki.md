@@ -24,7 +24,7 @@
   - `$var$` `$(var)$` `<<var>>` `<<__var__>>`
 - Widgets
   - `<$name para=arg/>`
-  - `<$name para=arg> slot </$name>`
+  - `<$name para=arg> ... </$name>`
 - Messages
 - [misc]
   - Commands
@@ -33,13 +33,13 @@
 - Tiddlers ((条目))
   - TiddlerFields ((字段))
   - Tagging ((添加标签))
-  - SystemTiddlers ((系统条目))
+  - [SystemTiddlers ((系统条目))](#systemtiddlers)
   - ShadowTiddlers ((影子条目))
   - DataTiddlers ((数据条目))
   - (TemplateTiddlers) ((条目模板))
-- Modules ((模块))
+- [Modules ((模块))](#modules)
   - (*.js)
-- Plugins ((插件))
+- [Plugins ((插件))](#plugins)
   - `$:/plugins/publisher/name`
 - Pragma ((编译指令)) / [Pragma | TiddlyWiki](<https://tiddlywiki.com/languages/zh-Hans/index.html#Pragma>)
   - `\define` `\rules` `\import`
@@ -73,7 +73,7 @@
         - parameter/operand
   - output
     - title selection（标题选集）是一组有序的条目标题（或类似的字符串），其中没有标题会出现一次以上。
-- Messages ((部件消息/事件))
+- [Messages ((部件消息/事件))](#messages)
 - Macros ((宏))
 - Widgets ((部件))
 - Variables ((变量))
