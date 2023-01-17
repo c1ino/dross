@@ -199,9 +199,14 @@
   - [TiddlyWiki 舞 — 基础文档简体中文版 (tiddlyspot)](https://tw5-zh-hans.tiddlyspot.com/)
 - [(http) TiddlyWiki 备忘录 — 官网副本中文版 • 2021年11月1日](http://tiddlywiki.cn/)
 ### sharing
-- [Grok TiddlyWiki — Build a deep, lasting understanding of TiddlyWiki](https://groktiddlywiki.com/read/)
-- [TiddlyWiki xp — A chance to experience TiddlyWiki very quickly](https://keatonlao.github.io/tiddlywiki-xp/)
+- [(EN) Grok TiddlyWiki — Build a deep, lasting understanding of TiddlyWiki](https://groktiddlywiki.com/read/)
+- [(zh-CN) TiddlyWiki xp — A chance to experience TiddlyWiki very quickly](https://keatonlao.github.io/tiddlywiki-xp/)
 ### community
+
+
+
+
+[^^TOC](#concepts)
 
 ---
 ---
