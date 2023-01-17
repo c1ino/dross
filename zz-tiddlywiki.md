@@ -97,6 +97,8 @@
 - [Naming of System Tiddlers | TiddlyWiki](<https://tiddlywiki.com/#Naming of System Tiddlers>)
 - [SystemTags | TiddlyWiki](<https://tiddlywiki.com/languages/zh-Hans/index.html#SystemTags>)
 ### Plugins
+/ [PluginMechanism | TiddlyWiki](<https://tiddlywiki.com/#PluginMechanism>)
+
 - :plugin-type
   - plugin theme language import info
 - /plugin.info
@@ -191,10 +193,15 @@
 - [TiddlyWiki — a non-linear personal web notebook](<https://tiddlywiki.com/>)
 - [TiddlyWiki/Dev — documentation for developers](<https://tiddlywiki.com/dev/>)
 - [TiddlyWiki 舞 — 基礎文件正體中文版](https://tw5-zh.tiddlyspot.com/)
-- [(ver.5.1.15) TiddlyWiki — 非线性个人网络笔记本](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
+- [TiddlyWiki — 非线性个人网络笔记本 (ver.5.1.15)](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
   - [(http) TiddlyWiki — 非线性个人网络笔记本](http://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
-- [TiddlyWiki 舞 — 基础文档简体中文版](https://bramchen.github.io/tw5-docs/zh-Hans/)
+- [TiddlyWiki 舞 — 基础文档简体中文版 (github)](https://bramchen.github.io/tw5-docs/zh-Hans/)
+  - [TiddlyWiki 舞 — 基础文档简体中文版 (tiddlyspot)](https://tw5-zh-hans.tiddlyspot.com/)
 - [(http) TiddlyWiki 备忘录 — 官网副本中文版 • 2021年11月1日](http://tiddlywiki.cn/)
+### sharing
+- [Grok TiddlyWiki — Build a deep, lasting understanding of TiddlyWiki](https://groktiddlywiki.com/read/)
+- [TiddlyWiki xp — A chance to experience TiddlyWiki very quickly](https://keatonlao.github.io/tiddlywiki-xp/)
+### community
 
 ---
 ---
