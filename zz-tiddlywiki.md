@@ -13,18 +13,18 @@
     - [and-pipe/intersection] `[op1[pa1]] ... +[op2[pa2]]`
     - [remove-pipe/subtraction] `[op1[pa1]] ... -[op2[pa2]]`
   - [parameter]
-    - [literal/quote] `[op1[literal with space]]`
-    - [TextReference] `[op1{textReference}]`
-    - [Varaiable] `[op1<var1>]`
+    - [literal/quote] `[op[literal with space]]`
+    - [TextReference] `[op{textReference}]`
+    - [Varaiable] `[op<var1>]`
 - Macros
-  - `\define name(param) \n...\n \end`
   - `<<name arg>>`
+  - `\define name(param) \n...\n \end`
 - Variables
   - `<<var>>`
   - `$var$` `$(var)$` `<<var>>` `<<__var__>>`
 - Widgets
-  - `<$name para=arg> slot </$name>`
   - `<$name para=arg/>`
+  - `<$name para=arg> slot </$name>`
 - Messages
 - [misc]
   - Commands
@@ -41,7 +41,8 @@
   - (*.js)
 - Plugins ((插件))
   - `$:/plugins/publisher/name`
-- Pragma ((编译指令))
+- Pragma ((编译指令)) / [Pragma | TiddlyWiki](<https://tiddlywiki.com/languages/zh-Hans/index.html#Pragma>)
+  - `\define` `\rules` `\import`
 - WikiText
   - Transclusion ((嵌入)) (独立渲染)
     - `{{tiddler!!field}}`
@@ -94,6 +95,7 @@
   - $:/StoryList 
   - $:/HistoryList
 - [Naming of System Tiddlers | TiddlyWiki](<https://tiddlywiki.com/#Naming of System Tiddlers>)
+- [SystemTags | TiddlyWiki](<https://tiddlywiki.com/languages/zh-Hans/index.html#SystemTags>)
 ### Plugins
 - :plugin-type
   - plugin theme language import info
@@ -138,7 +140,8 @@
     - Module
   - TextReference
   - Filter
-    - [Title List]
+    - [Title List] [Title Selection]
+  - Pragma
 - Tiddler
   - Tiddler Fields
     - Tagging
@@ -156,12 +159,33 @@
 - [Datamodel | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#Datamodel>)
 - [TiddlyWiki Architecture | TiddlyWiki/Dev](<https://tiddlywiki.com/dev/#TiddlyWiki Architecture>)
 
+## glossary
+
+|en|Hans|Hant|
+|-|-|-|
+|widget|部件|小工具|
+|message|部件消息/事件|小工具讯息|
+|macro|宏|巨集|
+|variable|变量|变数|
+|filter|过滤器|筛选器|
+|data|数据|资料|
+|field|字段|栏位|
+|link|链接|连结|
+|module|模块|模组|
+|template|模板|范本|
+|text reference|文本引用|文字参考|
+|operator|操作符/运算符|运算子|
+|command|命令|指令|
+|pragma|编译指令|编译指示|
+||||
+
 ## see-also
 - [TiddlyWiki — a non-linear personal web notebook](<https://tiddlywiki.com/>)
 - [TiddlyWiki/Dev — documentation for developers](<https://tiddlywiki.com/dev/>)
 - [TiddlyWiki 舞 — 基礎文件正體中文版](https://tw5-zh.tiddlyspot.com/)
 - [(ver.5.1.15) TiddlyWiki — 非线性个人网络笔记本](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
   - [(http) TiddlyWiki — 非线性个人网络笔记本](http://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
+- [TiddlyWiki 舞 — 基础文档简体中文版](https://bramchen.github.io/tw5-docs/zh-Hans/)
 - [(http) TiddlyWiki 备忘录 — 官网副本中文版 • 2021年11月1日](http://tiddlywiki.cn/)
 
 ---
