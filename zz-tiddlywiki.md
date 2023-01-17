@@ -46,6 +46,9 @@
   - Transclusion ((嵌入)) (独立渲染)
     - `{{tiddler!!field}}`
     - `{{tiddler||template_tiddler}}`
+    - `{{!!field}}`
+    - `{{dataTiddler##index}}`
+    - `{{{ [tag[mechanism]] ||template_tiddler}}}`
   - Substitution ((替换)) (预处理)
     - (Macro, Variable)
   - Typed Blocks ((类型区块))
@@ -166,9 +169,30 @@
 ---
 - Stamp
 - [story]
-  - StoryList
   - SubStories
-  - StoryRiver
+  - StoryView
+    - StoryRiver
+    - StoryList
 - Titles Policy
-- sidebar
 - banner / Corner ribbon
+- Upgrading
+- (Working with TiddlyWiki)
+  - PermaLink
+  - 标签丸（tag pill）
+  - 信息面板（InfoPanel）
+    - 参照（References） [backlink]
+    - 子条目（Tagging）
+    - 列表（List） / 被列于（Listed） [field:list]
+  - 边栏选项卡（sidebar tabs）
+    - open recent more
+  - search
+  - journalTiddler
+  - tagging
+  - KeyboardShortcuts
+  - Encryption
+  - Audio
+  - Performance
+- (Customise TiddlyWiki)
+  - custom sidebar button
+  - StoryList
+- Cascades
