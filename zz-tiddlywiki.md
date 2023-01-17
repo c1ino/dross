@@ -2,6 +2,20 @@
 - WikiText
 - Filters
   - `[operator[parameter]]`  
+    - [full-form] `[operator:suffix[parameter]]`
+    - [shortcut] 
+      - `[[param]]` `["param"]` `['param']` == `[title[param]]`
+      - `[anyfield[param]]` == `[field:anyfield[param]]`
+  - [operation]
+    - [not] `[!op[param]]`
+    - [and-select] `[op1[pa1]op2[pa2]...]`
+    - [or-select/union] `[op1[pa1]] [op2[pa2]] ...`
+    - [and-pipe/intersection] `[op1[pa1]] ... +[op2[pa2]]`
+    - [remove-pipe/subtraction] `[op1[pa1]] ... -[op2[pa2]]`
+  - [parameter]
+    - [literal/quote] `[op1[literal with space]]`
+    - [TextReference] `[op1{textReference}]`
+    - [Varaiable] `[op1<var1>]`
 - Macros
   - `\define name(param) \n...\n \end`
   - `<<name arg>>`
@@ -9,7 +23,7 @@
   - `<<var>>`
   - `$var$` `$(var)$` `<<var>>` `<<__var__>>`
 - Widgets
-  - `<$name para=arg> slot </name>`
+  - `<$name para=arg> slot </$name>`
   - `<$name para=arg/>`
 - Messages
 - [misc]
@@ -43,6 +57,18 @@
     - `@@style:val;/.class \n...\n @@`
 - TextReference ((文本引用))
 - Filters ((过滤器))
+  - input (default: [all[tiddlers]])
+  - [expression]
+    - runs ((运行块))
+      - steps ((步骤))
+        - prefix `!`
+        - operator ((操作符/运算符))
+          - selection modifiers（选择修饰符）
+          - selection constructors（选择构造器）
+        - suffix `:suf`
+        - parameter/operand
+  - output
+    - title selection（标题选集）是一组有序的条目标题（或类似的字符串），其中没有标题会出现一次以上。
 - Messages ((部件消息/事件))
 - Macros ((宏))
 - Widgets ((部件))
@@ -134,3 +160,15 @@
 - [(ver.5.1.15) TiddlyWiki — 非线性个人网络笔记本](https://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
   - [(http) TiddlyWiki — 非线性个人网络笔记本](http://oss.hintsnet.com/mirror/tiddlywiki.cn.html)
 - [(http) TiddlyWiki 备忘录 — 官网副本中文版 • 2021年11月1日](http://tiddlywiki.cn/)
+
+---
+---
+---
+- Stamp
+- [story]
+  - StoryList
+  - SubStories
+  - StoryRiver
+- Titles Policy
+- sidebar
+- banner / Corner ribbon
