@@ -131,6 +131,12 @@
   - `<$action-sendmessage ...>`
 - MessageHandlerWidgets
 
+### Filters
+#### Operators
+- Math
+  - [map]: unary, binary
+  - reduce
+
 ## tree
 - WikiText
   - Widget
