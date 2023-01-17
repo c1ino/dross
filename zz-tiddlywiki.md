@@ -23,8 +23,8 @@
   - `<<var>>`
   - `$var$` `$(var)$` `<<var>>` `<<__var__>>`
 - Widgets
-  - `<$name para=arg/>`
-  - `<$name para=arg> ... </$name>`
+  - `<$name param=arg/>`
+  - `<$name param=arg> ... </$name>`
 - Messages
 - [misc]
   - Commands
