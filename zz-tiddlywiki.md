@@ -48,7 +48,7 @@
     - `{{tiddler!!field}}`
     - `{{tiddler||template_tiddler}}`
     - `{{!!field}}`
-    - `{{dataTiddler##index}}`
+    - `{{data_tiddler##index}}`
     - `{{{ [tag[mechanism]] ||template_tiddler}}}`
   - Substitution ((替换)) (预处理)
     - (Macro, Variable)
@@ -177,6 +177,8 @@
 |operator|操作符/运算符|运算子|
 |command|命令|指令|
 |pragma|编译指令|编译指示|
+|prefix|前缀|前置码|
+|suffix|后缀|后置码|
 ||||
 
 ## see-also
