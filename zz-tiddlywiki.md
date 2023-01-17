@@ -34,7 +34,7 @@
   - TiddlerFields ((字段))
   - Tagging ((添加标签))
   - [SystemTiddlers ((系统条目))](#systemtiddlers)
-  - ShadowTiddlers ((影子条目))
+  - ShadowTiddlers ((影子条目/默认条目))
   - DataTiddlers ((数据条目))
   - (TemplateTiddlers) ((条目模板))
 - [Modules ((模块))](#modules)
@@ -202,6 +202,7 @@
 - [(EN) Grok TiddlyWiki — Build a deep, lasting understanding of TiddlyWiki](https://groktiddlywiki.com/read/)
 - [(zh-CN) TiddlyWiki xp — A chance to experience TiddlyWiki very quickly](https://keatonlao.github.io/tiddlywiki-xp/)
 ### community
+- [Tiddlyhost](https://tiddlyhost.com/hub)
 
 
 
