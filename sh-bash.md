@@ -77,9 +77,9 @@
 ---
 ---
 ---
+### reference
 - [Idnan/bash-guide: A guide to learn bash](https://github.com/Idnan/bash-guide)
   - [vuuihc/bash-guide: bash 基本用法指南](https://github.com/vuuihc/bash-guide)
-- [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [fullstack-tutorial/Linux.md at master · frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Linux.md)
 - [Linux命令搜索引擎](https://wangchujiang.com/linux-command/)
 - [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
@@ -88,6 +88,7 @@
 - [TLCL](http://billie66.github.io/TLCL/book/)
 - [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 - [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
 ### EN
 - [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
