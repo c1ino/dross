@@ -80,9 +80,9 @@
 ### reference
 - [Idnan/bash-guide: A guide to learn bash](https://github.com/Idnan/bash-guide)
   - [vuuihc/bash-guide: bash 基本用法指南](https://github.com/vuuihc/bash-guide)
+- [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
 - [fullstack-tutorial/Linux.md at master · frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Linux.md)
 - [Linux命令搜索引擎](https://wangchujiang.com/linux-command/)
-- [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
 - [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
 ### tutorial
 - [TLCL](http://billie66.github.io/TLCL/book/)
