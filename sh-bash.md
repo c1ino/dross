@@ -8,7 +8,7 @@
 ---
 ## api
 - env
-  - export clear
+  - export clear source
 - file/dir
   - [CRUD]
     - cp mv rm touch
@@ -22,24 +22,45 @@
   - [printer]
     - lpq lpr lprm
 - text
+  - echo fmt 
+  - [str]
+    - awk sed tr wc cut
+    - grep egrep fgrep 
+  - [row]
+    - nl sort uniq
+  - nano vi 
 - process
-  - top
+  - ps top
   - kill killall & nohup
 - network
-  - dig whois ping
-  - scp ssh
+  - dig whois ping wget curl
+  - scp ssh 
 - system
   - [job]
     - bg fg jobs
-  - [misc]
-    - cal date
   - [user]
     - finger last passwd w whoami 
   - [disk]
     - du df quota 
   - [info]
+    - cal date
     - uname uptime 
+    - man
+- special
+  - sudo trap
 ## bash
 ### var
 ### flow
 ### func
+### config
+- #!shebang ~/.bashrc ~/.bash_profile
+### debug
+### shortcut
+### trick
+
+
+---
+---
+---
+- [Idnan/bash-guide: A guide to learn bash](https://github.com/Idnan/bash-guide)
+  - [vuuihc/bash-guide: bash 基本用法指南](https://github.com/vuuihc/bash-guide)
