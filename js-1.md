@@ -1,0 +1,86 @@
+- Array
+  - extend()
+  - range()
+- String
+  - format()
+    - (interpolation)
+  - rsplit()
+  - split(sep, max)
+  - [x] (interpolation) f'{str}'
+    - \`${template_strings}\`
+      - func\`${arg1} template...\`
+  - strip(:chars)
+- [HTML]
+  - [x] escape()
+- [URL]
+  - [x] encode()
+- Object
+  - [x] dict(:items)
+    - `Object.fromEntries(:items)` 
+- [DOM]
+  - hasEventListener()
+- (line continuation character)
+- OOP
+  - [x] static_method from instance
+    - via classname or constructor
+  - [x] bound_method of instance
+    - via inst.func.bind(inst)
+  - `__call__`
+- Function
+  - [x] keyword_arguments
+    - via {object: destructuring}
+  - [x] default_value
+  - [[BoundThis]]
+  - [[Call]]
+  - (multi-bind)[^ 1](https://tc39.es/ecma262/#sec-bound-function-exotic-objects) [^ 2](https://zh.javascript.info/task/second-bind)
+- RegEx
+  - search, match, test, exec
+  - lastgroup
+
+
+## 
+- class {...}
+  - [x] Arrow Function
+    - via Field = ()=>{}
+  - field = value
+  - method(){...}
+  - `@property`
+    - get getter(){...}
+    - set setter(){...}
+  - `__init__()`
+    - constructor(){...}
+  - `class cls(base):`
+    - class cls extends base {...}
+  - `self`
+    - this
+  - `__class__/__mro__`
+    - \_\_proto__
+  - `cls()`
+    - new cls()
+- generator = function* (){yield val;}
+  - gene = geneartor()
+  - `next(gene)`
+    - {value, done} = geng.next()
+  - `for val in gene:`
+    - for(let val of gene){...}
+  - return val;
+    - {value:val, done:true} = gene.next()
+  - `__iter__`
+    - {[Symbol.iterator](){...}}
+  - `__next__`
+    - {next(){...}}
+  - {*geneartor(){...}}
+  - `yield from subgene`
+    - yield* subgene
+  - `msg = yield value` `gene.send(msg)`
+    - gene.next(msg)
+  - `gene.throw(err)`
+  - `gene.close()`
+    - gene.return()
+- function
+  - bind(this, ...args)  
+  - call(this, ...args)
+  - apply(this, [args])
+## design
+- implict `self` = this
+  - no bound_method

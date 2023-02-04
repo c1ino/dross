@@ -1,0 +1,78 @@
+
+# sqlite3
+- connect(:path)
+  - execute(:sql, :args), ...
+    - fetchone(), ...
+    - rowcount, lastrowid
+  - commit()
+  - close()
+  - row_factory
+- Row
+  - keys()
+
+# sqlite
+- gramma
+  - "col", 'str', \0
+  - soft-keyword
+- CRUD
+  - table (DDL)
+    - C: `CREATE TABLE` ...
+      - table(col type, ...)
+    - D: `DROP TABLE` ...
+    - U: `ALTER TABLE` ...
+      - RENAME TO
+      - ADD COLUMN
+  - rows (DML)
+    - C: `INSERT INTO` ...
+      - table(col, ...) `VALUES` (val, ...)
+    - D: `DELETE FROM` ...
+    - U: `UPDATE` ...
+      - table `SET` col=val, ...
+  - R(DQL): `SELECT` ...
+    - AS (ALIAS)
+    - JOIN, ON, USING
+    - WHERE
+    - GORUP BY, HAVING
+    - DISTINCT
+    - UNION
+    - ORDER BY
+    - LIMIT, OFFSET
+  - VIEW, TRIGGER, INDEX, ...
+- sugar
+  - IF EXISTS, IF NOT EXISTS
+  - ON CONFLICT
+- PRAGMA
+- database
+  - attach, detatch
+- constrains
+  - PRIMARY KEY
+  - FOREIGN KEY
+    - ON DELETE/UPDATE
+    - (action)
+      - NO ACTION (free)
+      - RESTRICT (lock)
+      - SET NULL/DEFAULT (reset)
+      - CASCADE (bind)
+  - AUTOINCREMENT
+  - UNIQUE
+  - DEFAULT, NOT NULL, CHECK
+- config
+  - ~/.sqliterc
+- operators
+  - LIKE
+  - GLOB, glob
+  - BETWEEN AND
+  - IN
+  - EXISTS
+- (metaphor)
+   - 别名/as
+   - 拼接/join
+   - 筛选/where on having
+   - 分组/group by
+   - 去重/distinct
+   - 联合/union
+   - 排序/order by
+   - 分页/limit offset
+   - 比较/运算符
+
+[SQLite Foreign Key Support]:(https://www.sqlite.org/foreignkeys.html#fk_unsupported)

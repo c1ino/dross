@@ -1,0 +1,155 @@
+- 8
+  - 16
+- 22
+- 216 (safe)
+
+## 16色
+- 红/R
+  - red / marron
+- 黄/Y
+  - yellow / olive
+- 绿/G
+  - lime / green
+- 青/C
+  - cyan / teal / (aqua)
+- 蓝/B
+  - blue / navy
+- 紫/M
+  - magenta / purple / (fushica)
+- 白
+  - white / silver
+- 灰
+  - gray / black / (grey)
+## x11 / 216色
+- 1.__[红]__ (Red)
+  - 7.粉 (Pink)
+  - 8.棕 (Brown)
+- 2.橙 (Orange)
+- 3.黄 (Yellow)
+- 4.__[绿]__ (Green)
+- 5.__[蓝]__ (Blue)
+- 6.紫 (Purple)
+###
+- 9.白 (White)
+- 10.灰 (Gray/Black)
+
+
+## 色彩空间组合比例
+- XYZ
+- XYY
+- XXY
+- XXX
+### 比例
+- X 主色系
+  - YZ 副色系 
+  - YY 双副色系
+- XXY 双主色系
+- XXX 灰色系
+
+## 216色
+- red+
+  - salmon* 鲑鱼
+  - lightCoral 珊瑚
+  - indian%
+  - crimson 猩红
+  - fireBrick 火砖
+  - pink-
+    - hot% deep%
+    - violetRed
+      - pale% medium%
+  - brown 棕/褐
+    - cornsilk 玉米须
+    - blanchedAlmond 白杏仁
+    - bisque 浓汤
+    - navajoWhite
+    - wheat
+    - burlyWood 硬木
+    - tan 棕褐
+    - rosy% sandy% saddle%
+    - goldenrod+ 金菊/鲜黄
+    - peru
+    - chocolate
+    - sienna 赭黄
+    - maroon 栗色/褐红/褐紫红
+- orange+
+  - coral
+  - tomato
+  - orangeRed
+- yellow-
+  - lemonChiffon 柠檬戚风
+  - goldenrod
+    - pale% light%
+  - papayaWhip 番木瓜
+  - moccasin 鹿皮鞋
+  - peachPuff 桃
+  - khaki+ 卡其布
+  - gold
+- green*
+  - pale% yellow% %yellow lawn% lime% forest%
+    - springGreen
+      - _ medium%
+    - seaGreen*
+      - _ medium%
+  - chartreuse 查特酒
+  - lime 青柠/草绿
+  - aquamarine 碧绿
+    - _ medium%
+  - olive
+    - _ %drab dark%Green
+  - teal 深青/蓝绿/青绿/鸭绿
+- blue*
+  - cadet% royal% medium% midnight%
+    - powder% 粉末蓝/浅灰蓝
+    - dodger% 道奇
+    - cornflower% 矢车菊
+    - steelBlue- 钢蓝/钢青
+    - skyBlue-
+      - _ deep%
+  - turquoise 绿松石
+    - _ pale% medium% dark%
+  - cyan* 天青
+    - aqua 水蓝
+  - navy 藏青
+- purple
+  - lacender 薰衣草
+  - thistle 蓟
+  - plum 李子
+  - violet 紫罗兰/堇紫
+    - _ blue% dark%
+  - orchid 兰花
+    - _ medium% dark%
+  - fuchsia 品红/灯笼海棠
+    - magenta 洋红
+      - _ dark%
+  - medium%
+  - amethyst 紫水晶
+  - slateBlue
+    - _ medium% dark%
+  - indigo 靛蓝/紫蓝
+- white
+  - snow
+  - honeydew
+  - mintCream 薄荷奶油
+  - azure 天蓝/蔚蓝
+  - aliceBlue
+  - ghost% %smoke floral% antique%
+  - seashell
+  - beige 米色
+  - oldLace
+  - ivory 象牙
+  - linen 亚麻
+  - lacenderBlush
+  - mistyRose
+- gray*
+  - gainsboro 亮灰/庚斯博罗灰
+  - silver
+  - dim%
+    - slateGray*
+  - black
+
+## see also
+- [网页颜色 - 维基百科](https://zh.wikipedia.org/wiki/网页颜色)
+- [颜色列表 - 维基百科](https://zh.wikipedia.org/wiki/颜色列表)
+- [ANSI转义序列 - 维基百科](https://zh.wikipedia.org/wiki/ANSI转义序列#8位)
+- [日本传统色系 - 维基百科](https://zh.wikipedia.org/wiki/日本传统色系)
+- [中国传统色彩 - 维基百科](https://zh.wikipedia.org/wiki/中国传统色彩)

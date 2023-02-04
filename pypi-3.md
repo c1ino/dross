@@ -1,0 +1,81 @@
+## orm
+- db().connect()
+  - close()
+  - commit() 
+  - create_tables(:list{model})
+    - safe=True ((if not exist))
+  - atomic()
+- .Model [^ 3](https://docs.peewee-orm.com/en/latest/peewee/api.html#Model)
+  - create/__init__(**items) -> (row)
+    - save() 
+      - force_insert=False
+        - ((update if pk else insert))
+    - get_id()
+    - delete_instance()
+  - *.execute/dicts/objects/tuples()$ *.sql()
+    - select()
+      - join where group_by order_by count
+      - .get()$
+    - insert/replace(:dict, **items)
+      - on_conflict()
+      - *_many(:list{dict|row}, fields)
+    - update(:dict/dsl, **items/dsl)
+    - delete()
+    - insert_from()
+  - get/get_or_none(:dsl)
+    - get_or_create(**items, defaults)
+  - get_by_id(:pk)
+    - set_by_id delete_by_id
+  - _meta [^ 2](http://docs.peewee-orm.com/en/latest/peewee/models.html#model-options-and-table-metadata)
+    - fields primary_key auto_increment  
+    - table_name legacy_table_names table_function
+    - database
+  - alias()
+  - raw(:sql, *params)
+  - __iter__ __len__
+  - bulk*
+    - bulk_create(:list{model})
+    - bulk_update(:list{model}, fields) 
+  - add_index()
+    - index()
+    - SQL('CREATE INDEX ...')
+- class _Table(Model):
+  - colname = *Field(...)
+    - primary_key=False
+    - unique=False
+    - default=None
+    - null=False 
+    - column_name
+    - index
+    - constraints
+  - class Meta:
+    - database
+    - table_name
+    - indexes = (((*cols), :unique{bool}), ...)
+    - primary_key = CompositeKey(*cols)
+    - constraints
+- *Field
+  - AutoField()
+  - ForeignKeyField(:model, backref)
+  - IntegerField()
+  - TextField()
+  - ManyToManyField()
+    - .get_through_model() -> Model
+    - .add/remove(:model/list{model}/dsl)
+    - .clear()
+- .Table
+  - insert/replace(:list{dict|row}, columns, **items)
+- ((trap))
+  - composite foreign-key [^ 3](https://docs.peewee-orm.com/en/latest/peewee/models.html#primary-keys-composite-keys-and-other-tricks)
+- playhouse.sqlite_ext 
+  - SqliteExtDatabase()
+    - JSONField()
+      - .set() .remove() 
+      - .update() .tree()
+      - .json_type()
+      - .extract()
+    - AutoIncrementField()
+- ((cons))
+  - list{model} \<!\> query \<!\> sql_query
+    - Model.col.in_(:list{model})
+  - model \<!\> row
