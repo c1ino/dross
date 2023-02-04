@@ -14,16 +14,20 @@
     - cp mv rm touch
     - cat find head tail more
     - ls cd mkdir pwd
+    - diff
   - [meta]
     - chmod chown file
   - [zip]
+    - gzcat gzip gunzip
   - [printer]
+    - lpq lpr lprm
 - text
 - process
   - top
   - kill killall & nohup
 - network
   - dig whois ping
+  - scp ssh
 - system
   - [job]
     - bg fg jobs
