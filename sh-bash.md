@@ -8,7 +8,7 @@
 ---
 ## api/cli
 - env
-  - export clear source
+  - export clear source/`.` exit history printenv set
 - file/dir
   - [CRUD]
     - cp mv rm touch ln
@@ -52,7 +52,7 @@
     - sar ipcs iostat
   - [software-package]
 - special
-  - sudo trap history xargs alias set screen
+  - sudo trap xargs alias set screen
 - develop
   - make 
 - help
@@ -64,18 +64,35 @@
   - split
 ### man
 - category
-## bash
+## bash/script
 ### var
+- [crud]
+  - name="value"  ((no-sapce))
+  - $name ${name}
+  - ${#length} ${slice:1:2}
+- [literal-type][str][array]
+  - 'plain-$text;no-escape' 
+  - "expand-$text;allow-escape\n"
+  - \`cmd\`
 ### flow
+- [branch]
+  - if expr; then stmts; elif expr; stmts; else stmts; fi
+  - case expr in; val1 ) stmts; ;; * ) stmts; esac
+- [loop]
+  - for name in val1 val2 valn; do stmts; done
+  - for (( expr1; expr2; expr3 )); do stmts; done
+  - while expr; do stmts; done
+  - until expr; do stmts; done
+  - `while :` `while true` `for (( ; ; ))`
 ### func
 ### config
 - #!shebang ~/.bashrc ~/.bash_profile
 ### debug/cli
 ### shortcut/shell/tui
+#### keyboard
 ### trick
 ### builtins
 ### pipe
-### keyboard
 
 
 ---
@@ -90,7 +107,7 @@
 - [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
 - [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 ### tutorial
-- [TLCL](http://billie66.github.io/TLCL/book/)
+- [TLCL](http://billie66.github.io/TLCL/book/) [](#详细的双语混排教材顺便练习英语但不适合速成)
 - [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
@@ -100,3 +117,6 @@
 - [tldr | simplified, community driven man pages](https://tldr.ostera.io/)
 - [BashGuide - Greg's Wiki](http://mywiki.wooledge.org/BashGuide)
 - [Crontab.guru - The cron schedule expression editor](https://crontab.guru/)
+- [Unix - What is Shells?](https://www.tutorialspoint.com/unix/unix-shell.htm)
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+
