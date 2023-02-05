@@ -1,5 +1,5 @@
 - wh
-  - whatis apropos
+  - whatis apropos info
   - whereis locate
   - which
   - whoami
@@ -48,18 +48,20 @@
     - cal date
     - uname uptime 
     - man
-  - [software]
+  - [software-package]
 - special
   - sudo trap history xargs alias set screen
 - develop
   - make 
 - help
-  - man type help 
+  - man type help info whatis 
 - misc
   - comm paste join tee
   - rsync
   - patch diffstat
   - split
+### man
+- category
 ## bash
 ### var
 ### flow
@@ -77,16 +79,16 @@
 ---
 ---
 ---
-### reference
+### reference/guide
 - [Idnan/bash-guide: A guide to learn bash](https://github.com/Idnan/bash-guide)
   - [vuuihc/bash-guide: bash 基本用法指南](https://github.com/vuuihc/bash-guide)
-- [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
+- [Learn bash in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
 - [fullstack-tutorial/Linux.md at master · frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Linux.md)
 - [Linux命令搜索引擎](https://wangchujiang.com/linux-command/)
 - [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
+- [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 ### tutorial
 - [TLCL](http://billie66.github.io/TLCL/book/)
-- [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
 - [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
