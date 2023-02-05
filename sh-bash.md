@@ -114,7 +114,8 @@
 #### keyboard
 - ^D
 - ^C
-- ^Z
+- ^Z = suspend
+- ^Y = delayed suspend
 ### trick
 ### builtins/cmd
 ### pipe
