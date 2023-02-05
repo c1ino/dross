@@ -7,9 +7,9 @@
 ---
 ---
 ## api/cli
-- env
+- [env]
   - export clear source/`.` exit history printenv set
-- file/dir
+- [file/dir]
   - [CRUD]
     - cp mv rm touch ln
     - cat find head tail more less
@@ -21,7 +21,7 @@
     - gzcat gzip gunzip
   - [printer]
     - lpq lpr lprm
-- text
+- [text]
   - echo fmt 
   - [str]
     - awk sed tr wc cut
@@ -29,15 +29,15 @@
   - [row]
     - nl sort uniq
   - nano vi emacs
-- process
+- [process]
   - ps top
   - kill killall & nohup
   - sudo
-- network
+- [network]
   - dig whois ping wget curl route traceroute host
   - ifconfig netstat lsof
   - scp ssh sftp
-- system
+- [system]
   - [job]
     - bg fg jobs 
     - crontab
@@ -51,13 +51,13 @@
     - man
     - sar ipcs iostat
   - [software-package]
-- special
+- [special]
   - sudo trap xargs alias set screen
-- develop
+- [develop]
   - make 
-- help
+- [help]
   - man type help info whatis 
-- misc
+- [misc]
   - comm paste join tee
   - rsync
   - patch diffstat
@@ -68,19 +68,22 @@
 ### var
 - [crud]
   - name="value"  ((no-sapce))
-  - $name ${name}
-  - ${#length} ${slice:1:2}
-- [literal-type][str][array]
-  - 'plain-$text;no-escape' 
-  - "expand-$text;allow-escape\n"
-  - \`cmd\`
+  - `$name` `${name}`
+  - `${#length}` `${slice:start:length}` `${src/pattern/replace}`
+- [literal-type]
+  - [str]
+    - 'plain-$text; no-escape' 
+    - "expand-$text; allow-escape\n"
+    - \`cmd-output\`
+  - [array/hash]
+  - [int]
 ### flow
 - [branch]
   - if expr; then stmts; elif expr; stmts; else stmts; fi
-  - case expr in; val1 ) stmts; ;; * ) stmts; esac
+  - case expr in; val1) stmts;; *) stmts; esac
 - [loop]
   - for name in val1 val2 valn; do stmts; done
-  - for (( expr1; expr2; expr3 )); do stmts; done
+  - for ((start; end; step)); do stmts; done
   - while expr; do stmts; done
   - until expr; do stmts; done
   - `while :` `while true` `for (( ; ; ))`
@@ -91,7 +94,7 @@
 ### shortcut/shell/tui
 #### keyboard
 ### trick
-### builtins
+### builtins/cmd
 ### pipe
 
 
@@ -106,17 +109,36 @@
 - [Linux命令搜索引擎](https://wangchujiang.com/linux-command/)
 - [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
 - [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+- [Ubuntu Manpage: man - 系统参考手册的接口](https://manpages.ubuntu.com/manpages/kinetic/zh_CN/man1/man.1.html)
+  - [Ubuntu Manpage: Directory Listing](https://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/)
+- [模板:Unix命令 - 维基百科](https://zh.wikipedia.org/wiki/Template:Unix命令)
+  - [Unix实用程序列表 - 维基百科](https://zh.wikipedia.org/wiki/Unix实用程序列表)
+- [bash(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html)
+  - [man(1) — man-db — Debian testing — Debian Manpages](https://manpages.debian.org/testing/man-db/man.1.zh_CN.html)
+  - [intro(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/intro.1.zh_CN.html)
+
 ### tutorial
-- [TLCL](http://billie66.github.io/TLCL/book/) [](#详细的双语混排教材顺便练习英语但不适合速成)
-- [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [TLCL](https://billie66.github.io/TLCL/book/) [](#详细的双语混排教材顺便练习英语但不适合速成)
+- [Shell 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
+  - [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
+- [Shell编程基础 - Ubuntu中文](https://wiki.ubuntu.org.cn/Shell编程基础)
+- [网络、文本处理工具与 Shell 脚本 - Linux 101](https://101.lug.ustc.edu.cn/Ch06/)
+- [学习Linux — 学习Linux](https://linux.fasionchan.com/zh_CN/latest/index.html)
+
 ### EN
+- [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/)
 - [explainshell.com - match command-line arguments to their help text](https://explainshell.com/)
 - [Linux Shell Scripting Tutorial - Bash Linux Shell Scripting Wiki](https://bash.cyberciti.biz/guide/Main_Page)
 - [tldr | simplified, community driven man pages](https://tldr.ostera.io/)
-- [BashGuide - Greg's Wiki](http://mywiki.wooledge.org/BashGuide)
+- [BashGuide - Greg's Wiki](https://mywiki.wooledge.org/BashGuide)
 - [Crontab.guru - The cron schedule expression editor](https://crontab.guru/)
 - [Unix - What is Shells?](https://www.tutorialspoint.com/unix/unix-shell.htm)
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/)
+- [Ubuntu Manpage: Welcome](https://manpages.ubuntu.com/)
+- [man page - Wikipedia](https://en.wikipedia.org/wiki/Man_page)
+  - [Template:Unix commands - Wikipedia](https://en.wikipedia.org/wiki/Template:Unix_commands)
+- [index — Debian Manpages](https://manpages.debian.org/)
+- [Linux Man Page Howto](https://tldp.org/HOWTO/Man-Page/)
 
