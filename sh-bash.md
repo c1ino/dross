@@ -34,20 +34,22 @@
   - kill killall & nohup
   - sudo
 - network
-  - dig whois ping wget curl 
+  - dig whois ping wget curl route traceroute host
   - ifconfig netstat lsof
-  - scp ssh 
+  - scp ssh sftp
 - system
   - [job]
-    - bg fg jobs
+    - bg fg jobs 
+    - crontab
   - [user]
     - finger last passwd w whoami su
   - [disk]
     - du df quota mount
   - [info]
     - cal date
-    - uname uptime 
+    - uname uptime pagesize arch
     - man
+    - sar ipcs iostat
   - [software-package]
 - special
   - sudo trap history xargs alias set screen
@@ -97,3 +99,4 @@
 - [Linux Shell Scripting Tutorial - Bash Linux Shell Scripting Wiki](https://bash.cyberciti.biz/guide/Main_Page)
 - [tldr | simplified, community driven man pages](https://tldr.ostera.io/)
 - [BashGuide - Greg's Wiki](http://mywiki.wooledge.org/BashGuide)
+- [Crontab.guru - The cron schedule expression editor](https://crontab.guru/)
