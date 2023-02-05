@@ -28,18 +28,23 @@
   - [选项(OPTIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#选项(OPTIONS))
 
 ### tree/toc
-- options/cli arguments
-- invocation/init
-- definitions reserved grammar
+- [cli]
+  - options arguments
+- [init]
+  - invocation
+- [grammar]
+  - definitions reserved grammar
   - simple pipelines lists compound comment quoting parameters varaiables arrays
   - expansion substitution
-- redirection/io/fd
-- alias function 
-- evaluation expression expansion
+  - redirection/io/fd
+  - alias function 
+  - evaluation expression expansion
 - execution environment exit signals job
-- prompting
-- readline completing
-- history designator
+- [tui]
+  - prompting
+  - readline completing
+  - history designator
 - builtins
 - restricted
-- files/config
+- [config]
+  - files
