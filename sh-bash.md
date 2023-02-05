@@ -69,7 +69,7 @@
 ### config
 - #!shebang ~/.bashrc ~/.bash_profile
 ### debug/cli
-### shortcut
+### shortcut/shell/tui
 ### trick
 ### builtins
 ### pipe
