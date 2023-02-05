@@ -67,7 +67,7 @@
 ## bash/script
 ### var
 - [crud]
-  - name="value"  ((no-sapce))
+  - name="value"  #no-sapce
   - `$name` `${name}`
   - `${#length}` `${slice:start:length}` `${src/pattern/replace}`
 - [literal-type]
@@ -75,8 +75,8 @@
     - 'plain-$text; no-escape' 
     - "expand-$text; allow-escape\n"
     - \`cmd-output\`
-  - [array/hash]
   - [int]
+  - [array/hash]
 ### flow
 - [branch]
   - if expr; then stmts; elif expr; stmts; else stmts; fi
@@ -118,11 +118,11 @@
   - [intro(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/intro.1.zh_CN.html)
 
 ### tutorial
-- [TLCL](https://billie66.github.io/TLCL/book/) [](#详细的双语混排教材顺便练习英语但不适合速成)
+- [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
 - [Shell 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
   - [30min_guides/shell.md at master · qinjx/30min_guides](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [TLCL](https://billie66.github.io/TLCL/book/) [](#详细的双语混排教材顺便练习英语但不适合速成)
 - [the-art-of-command-line/README-zh.md at master · jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-- [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
 - [Shell编程基础 - Ubuntu中文](https://wiki.ubuntu.org.cn/Shell编程基础)
 - [网络、文本处理工具与 Shell 脚本 - Linux 101](https://101.lug.ustc.edu.cn/Ch06/)
 - [学习Linux — 学习Linux](https://linux.fasionchan.com/zh_CN/latest/index.html)
