@@ -77,6 +77,7 @@
     - \`cmd-output\`
   - [int]
   - [array/hash]
+- [special]
 ### flow
 - [branch]
   - if expr; then stmts; elif expr; stmts; else stmts; fi
@@ -107,8 +108,8 @@
 - [Learn bash in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)
 - [fullstack-tutorial/Linux.md at master · frank-lam/fullstack-tutorial](https://github.com/frank-lam/fullstack-tutorial/blob/master/notes/Linux.md)
 - [Linux命令搜索引擎](https://wangchujiang.com/linux-command/)
-- [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
 - [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+- [Linux命令大全(手册) – Linux命令在线查询网站](https://www.linuxcool.com/)
 - [Ubuntu Manpage: man - 系统参考手册的接口](https://manpages.ubuntu.com/manpages/kinetic/zh_CN/man1/man.1.html)
   - [Ubuntu Manpage: Directory Listing](https://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/)
 - [模板:Unix命令 - 维基百科](https://zh.wikipedia.org/wiki/Template:Unix命令)
