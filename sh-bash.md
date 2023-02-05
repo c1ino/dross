@@ -117,6 +117,22 @@
 ### trick
 ### builtins/cmd
 ### pipe
+### namespace
+- alias
+- path
+- builtins
+- function
+### section
+- [文件(FILES) | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#文件(FILES))
+- [shell_内建命令(SHELL_BUILTIN_COMMANDS) | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#shell_内建命令(SHELL_BUILTIN_COMMANDS))
+- [历史(HISTORY) | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#历史(HISTORY))
+- [Completing_补全 | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Completing_补全)
+  - [Programmable_Completion_可编程补全 | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Programmable_Completion_可编程补全)
+- [Readline_Command_Names | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Command_Names)
+- [readline库(READLINE) | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#readline库(READLINE))
+  - [Readline_Key_Bindings | bash(1) (Debian)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Key_Bindings)
+
+
 
 
 ---
