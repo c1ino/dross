@@ -33,17 +33,29 @@
 - [init]
   - invocation
 - [grammar]
-  - definitions reserved grammar
-  - simple pipelines lists compound comment quoting parameters varaiables arrays
+  - definitions reserved 
+  - grammar
+    - simple pipelines lists compound comment quoting parameters varaiables arrays
   - expansion substitution
+    - brace expansion(花括号扩展)
+    - tilde expansion(波浪线扩展)
+    - parameter and variable expansion(参数和变量扩展)
+    - command substitution(命令替换)
+    - arithmetic expansion(算术扩展)
+    - word splitting(词的拆分)
+    - pathname expansion(路径扩展)
+    - process subtitution (进程替换)
   - redirection/io/fd
   - alias function 
   - evaluation expression expansion
+    - ARITHMETIC EVALUATION
+    - CONDITIONAL EXPRESSIONS
+    - SIMPLE COMMAND EXPANSION
 - execution environment exit signals job
 - [tui]
   - prompting
   - readline completing
-  - history designator
+  - history/designator
 - builtins
 - restricted
 - [config]
