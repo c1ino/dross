@@ -13,7 +13,7 @@
   - [CRUD]
     - cp mv rm touch ln
     - cat find head tail more less
-    - ls cd mkdir pwd
+    - ls cd mkdir pwd rmdir
     - diff
   - [meta]
     - chmod chown file stat
@@ -44,7 +44,7 @@
   - [user]
     - finger last passwd w whoami su
   - [disk]
-    - du df quota mount
+    - du df quota mount umount
   - [info]
     - cal date
     - uname uptime pagesize arch
@@ -63,7 +63,25 @@
   - patch diffstat
   - split
 ### man
-- category
+- category: 1-9
+- section
+  - NAME, 
+    概述(SYNOPSIS), 
+    配置(CONFIGURATION), 
+    描述(DESCRIPTION), 
+    选项(OPTIONS), 
+    退出状态(EXIT STATUS), 
+    返回值(RETURN VALUE), 
+    错误(ERRORS), 
+    环境(ENVIRONMENT), 
+    文件(FILES), 
+    版本(VERSIONS), 
+    符合标准(CONFORMING TO), 
+    注(NOTES), 
+    缺陷(BUGS), 
+    示例(EXAMPLE), 
+    作者(AUTHORS), 和 
+    亦见(SEE ALSO).
 ## bash/script
 ### var
 - [crud]
@@ -94,6 +112,8 @@
 ### debug/cli
 ### shortcut/shell/tui
 #### keyboard
+- ^D
+- ^C
 ### trick
 ### builtins/cmd
 ### pipe
