@@ -38,8 +38,9 @@
     - Modifiers  
 - builtins
   - [env]
-    - source alias declare typeset export
-    - getopts local readonly set shift unalias unset
+    - source alias/unalias declare/typeset export
+    - getopts local readonly set/unset shift  
+    - builtin command enable
   - [job/process]
     - bg fg jobs disown 
     - kill suspend trap wait
@@ -57,7 +58,6 @@
     - logout
     - times ulimit umask
   - [misc]
-    - builtin command enable
     - eval exec let test
     - help type 
     - hash shopt
@@ -66,6 +66,14 @@
   - files
 
 ### Grammar
+#### Definitions
+- blank
+- word ((token))
+- name ((identifier))
+- metacharacter ((sep))
+  - `| & ; ( ) < > space tab` 
+- control-operator
+  - `|| & && ; ;; ( ) | <newline>`
 #### Compound Commands
 - [*]
   - (list)
@@ -81,7 +89,8 @@
 - positional/arguments
 - special/readonly
   - \* @ # ? - $ ! 0
-### Expansion / Subtitution
+- shell
+#### Expansion / Subtitution
 - [priority]
   - brace, tilde, parameter, variable, arithmetic, command, splitting, pathname
 - Brace Expansion  `{...}`
@@ -93,13 +102,30 @@
 - Word Splitting
 - Pathname Expansion `*?[`
 - Quote Removal `\'"`
+#### Evaluation / Expansion
+- ARITHMETIC EVALUATION
+- CONDITIONAL EXPRESSIONS
+- SIMPLE COMMAND EXPANSION
+#### (Execution / Environment)
+#### (Exit / Signals / Job Control)
 
 ### Builtins
 ####
 ##### 
 
 ## (tree)
-
+- [stmt]
+  - simple-commands
+  - pipelines
+  - lists
+  - compound-commands
+  - comments
+  - quoting
+- [parameter]
+  - value attributes
+  - [set/assign]
+  - [get]
+  - positional special shell arrays
 
 ---
 ---
