@@ -44,16 +44,15 @@
   - [job/process]
     - bg fg jobs disown 
     - kill suspend trap wait
-  - [readline]
+  - [readline/history]
     - bind compgen complete
+    - fc history
   - [flow]
     - exit break continue return
   - [tree/dir]
     - cd dirs pushd popd pwd
   - [io/text]
     - echo printf read
-  - [history]
-    - fc history
   - [system]
     - logout
     - times ulimit umask
@@ -70,18 +69,22 @@
 - blank
 - word ((token))
 - name ((identifier))
-- metacharacter ((sep))
+- metacharacter ((separator))
   - `| & ; ( ) < > space tab` 
 - control-operator
   - `|| & && ; ;; ( ) | <newline>`
 ### [Statements]
 #### (Simple Commands / Pipelines / Lists)
 #### Compound Commands
-- [*]
-  - (list)
-  - { list; }
-  - ((expr))
-  - [[ expr ]]
+- [special]
+  - `(list)`
+    - (Subshell)
+  - `{ list; }`
+    - (Group Command)
+  - `((expr))`
+    - (Arithmetic Evaluation)
+  - `[[ expr ]]`
+    - (Conditional Expressions)
 - [flow]
   - if case
   - for while until 
@@ -93,7 +96,7 @@
   - \* @ # ? - $ ! 0
 - shell
 ### (Redirection ((I/O)))
-### (Alias / Function)
+### (Aliases / Functions)
 ### [Expressions]
 #### Expansion / Subtitution
 - [priority]
@@ -108,8 +111,8 @@
 - Pathname Expansion `*?[`
 - Quote Removal `\'"`
 #### Evaluation / Expansion
-- Arithmetic Evaluation
-- Conditional Expressions
+- Arithmetic Evaluation `((expr))` `let`
+- Conditional Expressions `test` `[ expr ]` `[[ expr ]]`
 - Simple Command Expansion
 ## (Execution / Environment)
 ## (Exit / Signals / Job Control)
