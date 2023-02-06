@@ -1,5 +1,5 @@
 
-## tree/toc
+## toc
 - [cli]
   - options arguments
 - [init]
@@ -44,8 +44,7 @@
     - bg fg jobs disown 
     - kill suspend trap wait
   - [readline]
-    - bind
-    - compgen complete
+    - bind compgen complete
   - [flow]
     - exit break continue return
   - [tree/dir]
@@ -54,14 +53,14 @@
     - echo printf read
   - [history]
     - fc history
-  - [user]
+  - [system]
     - logout
+    - times ulimit umask
   - [misc]
     - builtin command enable
     - eval exec let test
     - help type 
     - hash shopt
-    - times ulimit umask
 - restricted
 - [config]
   - files
@@ -70,7 +69,7 @@
 #### Compound Commands
 - [*]
   - (list)
-  - {list;}
+  - { list; }
   - ((expr))
   - [[ expr ]]
 - [flow]
@@ -95,10 +94,11 @@
 - Pathname Expansion `*?[`
 - Quote Removal `\'"`
 
-### builtins
+### Builtins
 ####
 ##### 
 
+## (tree)
 
 
 ---
