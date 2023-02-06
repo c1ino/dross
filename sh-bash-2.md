@@ -65,8 +65,8 @@
 - [config]
   - files
 
-### Grammar
-#### Definitions
+## Grammar
+### Definitions
 - blank
 - word ((token))
 - name ((identifier))
@@ -74,7 +74,7 @@
   - `| & ; ( ) < > space tab` 
 - control-operator
   - `|| & && ; ;; ( ) | <newline>`
-#### Compound Commands
+### Compound Commands
 - [*]
   - (list)
   - { list; }
@@ -85,12 +85,12 @@
   - for while until 
   - select
 - function name(){list;}
-#### Parameters
+### Parameters
 - positional/arguments
 - special/readonly
   - \* @ # ? - $ ! 0
 - shell
-#### Expansion / Subtitution
+### Expansion / Subtitution
 - [priority]
   - brace, tilde, parameter, variable, arithmetic, command, splitting, pathname
 - Brace Expansion  `{...}`
@@ -102,16 +102,16 @@
 - Word Splitting
 - Pathname Expansion `*?[`
 - Quote Removal `\'"`
-#### Evaluation / Expansion
+### Evaluation / Expansion
 - ARITHMETIC EVALUATION
 - CONDITIONAL EXPRESSIONS
 - SIMPLE COMMAND EXPANSION
-#### (Execution / Environment)
-#### (Exit / Signals / Job Control)
+### (Execution / Environment)
+### (Exit / Signals / Job Control)
 
-### Builtins
-####
-##### 
+## Builtins
+###
+#### 
 
 ## (tree)
 - [stmt]
@@ -123,8 +123,7 @@
   - quoting
 - [parameter]
   - value attributes
-  - [set/assign]
-  - [get]
+  - [set/assign] [get]
   - positional special shell arrays
 
 ---
