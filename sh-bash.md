@@ -147,6 +147,10 @@
 - [bash(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html)
   - [man(1) — man-db — Debian testing — Debian Manpages](https://manpages.debian.org/testing/man-db/man.1.zh_CN.html)
   - [intro(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/intro.1.zh_CN.html)
+- [Bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
+- [Bash Reference Manual/zh - Ubuntu中文](https://wiki.ubuntu.org.cn/Bash_Reference_Manual/zh)
+- [Bash Reference Manual/zh - yiyibooks@Phiix](https://yiyibooks.cn/Phiix/bash_reference_manual/bash参考文档.html)
+
 
 ### tutorial
 - [Shell 工具和脚本 · the missing semester of your cs education](https://missing-semester-cn.github.io/2020/shell-tools/)
@@ -157,6 +161,15 @@
 - [Shell编程基础 - Ubuntu中文](https://wiki.ubuntu.org.cn/Shell编程基础)
 - [网络、文本处理工具与 Shell 脚本 - Linux 101](https://101.lug.ustc.edu.cn/Ch06/)
 - [学习Linux — 学习Linux](https://linux.fasionchan.com/zh_CN/latest/index.html)
+- [Bash 和 Bash 脚本 | 管理指南 | SUSE Linux Enterprise Server 15 SP2](https://documentation.suse.com/zh-cn/sles/15-SP2/html/SLES-all/cha-adm-shell.html)
+- [oldratlee/useful-scripts: shell学习与开发的资料](https://github.com/oldratlee/useful-scripts#-shell学习与开发的资料)
+  - [useful-scripts/developer-guide.md at dev-2.x · Shell学习与开发的资料](https://github.com/oldratlee/useful-scripts/blob/dev-2.x/docs/developer-guide.md) 
+  - [oldratlee/useful-scripts: shell相关脚本](https://github.com/oldratlee/useful-scripts#-shell相关脚本)
+  - [Shell — Google 开源项目风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/google-shell-styleguide/background/)
+
+
+
+###
 
 ### EN
 - [GNU Bash manual - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/manual/)
