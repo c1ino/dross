@@ -47,11 +47,11 @@
     - bind
     - compgen complete
   - [flow]
-    - if while break continue until
+    - break continue
     - exit return suspend trap wait
-  - [tree/file/dir]
+  - [tree/dir]
     - cd dirs pushd popd pwd
-  - [text]
+  - [io/text]
     - echo printf read
   - [history]
     - fc history
