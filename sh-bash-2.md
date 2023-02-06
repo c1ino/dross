@@ -129,6 +129,8 @@
   - compound-commands
   - comments
   - quoting
+  - [operator]
+    - &&and ||or ; & |pipe \>\<io
 - [parameter]
   - value attributes
   - [set/assign] [get]
