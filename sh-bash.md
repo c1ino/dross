@@ -108,12 +108,14 @@
   - `while :` `while true` `for (( ; ; ))`
 ### func
 ### config
-- #!shebang ~/.bashrc ~/.bash_profile
+- #!shebang 
+  - (#sharp+!bang)
+- ~/.bashrc ~/.bash_profile
 ### debug/cli
 ### shortcut/shell/tui
 #### keyboard
-- ^D
-- ^C
+- ^D = EOF
+- ^C = interrupt
 - ^Z = suspend
 - ^Y = delayed suspend
 ### trick
