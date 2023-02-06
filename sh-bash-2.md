@@ -74,7 +74,9 @@
   - `| & ; ( ) < > space tab` 
 - control-operator
   - `|| & && ; ;; ( ) | <newline>`
-### Compound Commands
+### [Statements]
+#### (Simple Commands / Pipelines / Lists)
+#### Compound Commands
 - [*]
   - (list)
   - { list; }
@@ -85,12 +87,15 @@
   - for while until 
   - select
 - function name(){list;}
-### Parameters
+### Parameters ((Variables))
 - positional/arguments
 - special/readonly
   - \* @ # ? - $ ! 0
 - shell
-### Expansion / Subtitution
+### (Redirection ((I/O)))
+### (Alias / Function)
+### [Expressions]
+#### Expansion / Subtitution
 - [priority]
   - brace, tilde, parameter, variable, arithmetic, command, splitting, pathname
 - Brace Expansion  `{...}`
@@ -102,12 +107,12 @@
 - Word Splitting
 - Pathname Expansion `*?[`
 - Quote Removal `\'"`
-### Evaluation / Expansion
-- ARITHMETIC EVALUATION
-- CONDITIONAL EXPRESSIONS
-- SIMPLE COMMAND EXPANSION
-### (Execution / Environment)
-### (Exit / Signals / Job Control)
+#### Evaluation / Expansion
+- Arithmetic Evaluation
+- Conditional Expressions
+- Simple Command Expansion
+## (Execution / Environment)
+## (Exit / Signals / Job Control)
 
 ## Builtins
 ###
