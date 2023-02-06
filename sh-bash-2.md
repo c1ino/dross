@@ -81,14 +81,14 @@
 #### Parameters
 - positional/arguments
 - special/readonly
-  - * @ # ? - $ ! 0
+  - \* @ # ? - $ ! 0
 ### Expansion / Subtitution
 - [priority]
   - brace, tilde, parameter, variable, arithmetic, command, splitting, pathname
 - Brace Expansion  `{...}`
 - Tilde Expansion  `~`
 - Parameter Expansion  `$...`
-- Command Substitution `$(cmd)` `\`cmd\``
+- Command Substitution `$(cmd)` \`cmd\`
 - Arithmetic Expansion `$((expr))`
 - Process Substitution `<(list)` `>(list)`
 - Word Splitting
