@@ -1,5 +1,5 @@
 
-### tree/toc
+## tree/toc
 - [cli]
   - options arguments
 - [init]
@@ -66,11 +66,45 @@
 - [config]
   - files
 
+### Grammar
+#### Compound Commands
+- [*]
+  - (list)
+  - {list;}
+  - ((expr))
+  - [[ expr ]]
+- [flow]
+  - if case
+  - for while until 
+  - select
+- function name(){list;}
+#### Parameters
+- positional/arguments
+- special/readonly
+  - * @ # ? - $ ! 0
+### Expansion / Subtitution
+- [priority]
+  - brace, tilde, parameter, variable, arithmetic, command, splitting, pathname
+- Brace Expansion  `{...}`
+- Tilde Expansion  `~`
+- Parameter Expansion  `$...`
+- Command Substitution `$(cmd)` `\`cmd\``
+- Arithmetic Expansion `$((expr))`
+- Process Substitution `<(list)` `>(list)`
+- Word Splitting
+- Pathname Expansion `*?[`
+- Quote Removal `\'"`
+
+### builtins
+####
+##### 
+
+
 
 ---
 ---
 ---
-### section | Debian-manpages
+## section | Debian-manpages
 - [shell 内建命令(SHELL BUILTIN COMMANDS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#shell_内建命令(SHELL_BUILTIN_COMMANDS))
 - [历史(HISTORY)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#历史(HISTORY))
 - [readline]
