@@ -1,31 +1,3 @@
-### section | Debian-manpages
-- [shell 内建命令(SHELL BUILTIN COMMANDS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#shell_内建命令(SHELL_BUILTIN_COMMANDS))
-- [历史(HISTORY)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#历史(HISTORY))
-- [readline]
-  - [Readline Command Names](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Command_Names)
-  - [readline库(READLINE)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#readline库(READLINE))
-    - [Readline Key Bindings](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Key_Bindings)
-  - [Completing 补全](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Completing_补全)
-    - [Programmable Completion 可编程补全](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Programmable_Completion_可编程补全)
-- [作业控制("JOB CONTROL")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#作业控制("JOB_CONTROL"))
-- [信号(SIGNALS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#信号(SIGNALS))
-- [parse]
-  - [命令执行(COMMAND EXECUTION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#命令执行(COMMAND_EXECUTION))
-  - [简单命令扩展("SIMPLE COMMAND EXPANSION")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#简单命令扩展("SIMPLE_COMMAND_EXPANSION"))
-  - [别名(ALIASES)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#别名(ALIASES))
-  - [函数(FUNCTIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#函数(FUNCTIONS))
-- [重定向(REDIRECTION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#重定向(REDIRECTION))
-- [扩展(EXPANSION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#扩展(EXPANSION))
-  - [Parameter Expansion](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Parameter_Expansion)
-- [Compound Commands 复合命令](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Compound_Commands_复合命令)
-- [保留字("RESERVED WORDS")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#保留字("RESERVED_WORDS"))
-  - [定义(DEFINITIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#定义(DEFINITIONS))
-- [启动(INVOCATION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#启动(INVOCATION))
-  - [文件(FILES)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#文件(FILES))
-  - [命令执行环境(COMMAND EXECUTION ENVIRONMENT)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#命令执行环境(COMMAND_EXECUTION_ENVIRONMENT))
-  - [环境(ENVIRONMENT)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#环境(ENVIRONMENT))
-- [cli]
-  - [选项(OPTIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#选项(OPTIONS))
 
 ### tree/toc
 - [cli]
@@ -55,8 +27,75 @@
 - [tui]
   - prompting
   - readline completing
+    - Notation Initialization Key-Bindings Variables Conditional-Constructs Searching 
+    - Command-Names
+      - Moving History Text Clip Numeric Completing Macros Miscellaneous
+    - Programmable-Completion
   - history/designator
+    - HISTORY EXPANSION
+    - Event Designators
+    - Word Designators
+    - Modifiers  
 - builtins
+  - [env]
+    - source alias declare typeset export
+    - getopts local readonly set shift unalias unset
+  - [job/process]
+    - bg fg jobs disown 
+    - kill
+  - [readline]
+    - bind
+    - compgen complete
+  - [flow]
+    - if while break continue until
+    - exit return suspend trap wait
+  - [tree/file/dir]
+    - cd dirs pushd popd pwd
+  - [text]
+    - echo printf read
+  - [history]
+    - fc history
+  - [user]
+    - logout
+  - [misc]
+    - builtin command enable
+    - eval exec let test
+    - help type 
+    - hash shopt
+    - times ulimit umask
 - restricted
 - [config]
   - files
+
+
+---
+---
+---
+### section | Debian-manpages
+- [shell 内建命令(SHELL BUILTIN COMMANDS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#shell_内建命令(SHELL_BUILTIN_COMMANDS))
+- [历史(HISTORY)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#历史(HISTORY))
+- [readline]
+  - [Readline Command Names](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Command_Names)
+  - [readline库(READLINE)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#readline库(READLINE))
+    - [Readline Key Bindings](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Readline_Key_Bindings)
+  - [Completing 补全](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Completing_补全)
+    - [Programmable Completion 可编程补全](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Programmable_Completion_可编程补全)
+- [作业控制("JOB CONTROL")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#作业控制("JOB_CONTROL"))
+- [信号(SIGNALS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#信号(SIGNALS))
+- [parse]
+  - [命令执行(COMMAND EXECUTION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#命令执行(COMMAND_EXECUTION))
+  - [简单命令扩展("SIMPLE COMMAND EXPANSION")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#简单命令扩展("SIMPLE_COMMAND_EXPANSION"))
+  - [别名(ALIASES)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#别名(ALIASES))
+  - [函数(FUNCTIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#函数(FUNCTIONS))
+- [重定向(REDIRECTION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#重定向(REDIRECTION))
+- [扩展(EXPANSION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#扩展(EXPANSION))
+  - [Parameter Expansion](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Parameter_Expansion)
+- [Compound Commands 复合命令](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#Compound_Commands_复合命令)
+- [保留字("RESERVED WORDS")](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#保留字("RESERVED_WORDS"))
+  - [定义(DEFINITIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#定义(DEFINITIONS))
+- [启动(INVOCATION)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#启动(INVOCATION))
+  - [文件(FILES)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#文件(FILES))
+  - [命令执行环境(COMMAND EXECUTION ENVIRONMENT)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#命令执行环境(COMMAND_EXECUTION_ENVIRONMENT))
+  - [环境(ENVIRONMENT)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#环境(ENVIRONMENT))
+- [cli]
+  - [选项(OPTIONS)](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html#选项(OPTIONS))
