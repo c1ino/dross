@@ -42,13 +42,12 @@
     - getopts local readonly set shift unalias unset
   - [job/process]
     - bg fg jobs disown 
-    - kill
+    - kill suspend trap wait
   - [readline]
     - bind
     - compgen complete
   - [flow]
-    - break continue
-    - exit return suspend trap wait
+    - exit break continue return
   - [tree/dir]
     - cd dirs pushd popd pwd
   - [io/text]
