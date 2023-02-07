@@ -144,12 +144,13 @@
   - [Ubuntu Manpage: Directory Listing](https://manpages.ubuntu.com/manpages/bionic/zh_CN/man1/)
 - [模板:Unix命令 - 维基百科](https://zh.wikipedia.org/wiki/Template:Unix命令)
   - [Unix实用程序列表 - 维基百科](https://zh.wikipedia.org/wiki/Unix实用程序列表)
-- [bash(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html)
+- [bash(1) — manpages-zh — Debian testing — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/bash.1.zh_CN.html)
   - [man(1) — man-db — Debian testing — Debian Manpages](https://manpages.debian.org/testing/man-db/man.1.zh_CN.html)
-  - [intro(1) — manpages-zh — Debian bullseye — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/intro.1.zh_CN.html)
-- [Bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
-- [Bash Reference Manual/zh - Ubuntu中文](https://wiki.ubuntu.org.cn/Bash_Reference_Manual/zh)
-- [Bash Reference Manual/zh - yiyibooks@Phiix](https://yiyibooks.cn/Phiix/bash_reference_manual/bash参考文档.html)
+  - [intro(1) — manpages-zh — Debian testing — Debian Manpages](https://manpages.debian.org/testing/manpages-zh/intro.1.zh_CN.html)
+- [(EN) Bash Reference Manual - GNU](https://www.gnu.org/software/bash/manual/bash.html)
+  - [Bash参考手册](https://xy2401.com/local-docs/gnu/manual.zh/bash.html)
+  - [Bash Reference Manual/zh - Ubuntu中文](https://wiki.ubuntu.org.cn/Bash_Reference_Manual/zh)
+  - [Bash Reference Manual/zh - yiyibooks@Phiix](https://yiyibooks.cn/Phiix/bash_reference_manual/bash参考文档.html)
 
 
 ### tutorial
