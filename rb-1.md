@@ -38,7 +38,8 @@
     - [instmethod / cls.clsmethod]
 - [oop]
   - class
-    - [metacls] `class << self`
+    - [metaclass] `class << self`
+    - [attr_accessor]
   - module
   - [mixin] 
     - include / extend / prepend
