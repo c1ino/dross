@@ -38,15 +38,18 @@
     - [instmethod / cls.clsmethod]
 - [oop]
   - class
-    - [metaclass] `class << self`
+    - [metaclass / singleton-class] `class << self`
     - [attr_accessor]
     - [visibility / access-control] 
       - public / protected / private
     - [inherit] `class Cls < Base`
     - [inst] `Cls.new(...)`
+    - [operator-overload] / [method-override]
+    - `super(...)`
   - module
   - [mixin] 
     - include / extend / prepend
+  - [open / reopen]
 - [misc]
   - [comment]
   - require / load
