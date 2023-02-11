@@ -19,6 +19,7 @@
     - Range / Regexp
   - variable
     - local / ::Const / $global / @instattr / @@clsattr
+    - [special/pesudo]
   - operator
     - assign / calculate / compare / logic / bit / range 
     - [special]
