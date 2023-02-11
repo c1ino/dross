@@ -40,6 +40,10 @@
   - class
     - [metaclass] `class << self`
     - [attr_accessor]
+    - [visibility / access-control] 
+      - public / protected / private
+    - [inherit] `class Cls < Base`
+    - [inst] `Cls.new(...)`
   - module
   - [mixin] 
     - include / extend / prepend
@@ -48,6 +52,7 @@
   - require / load
   - alias / undef
   - BEGIN / END
+  - [inspect]
 
 ## feature
 ## style / design
