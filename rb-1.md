@@ -35,8 +35,10 @@
         - retry / raise
   - [function] method
     - def / [proc] / &block{} / do / lambda
+    - [instmethod / cls.clsmethod]
 - [oop]
   - class
+    - [metacls] `class << self`
   - module
   - [mixin] 
     - include / extend / prepend
