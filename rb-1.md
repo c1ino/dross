@@ -52,11 +52,16 @@
     - include / extend / prepend
   - [open / reopen]
 - [misc]
-  - [comment]
+  - [comment] 
+    - magic-comment
   - require / load
   - alias / undef
   - BEGIN / END
   - [inspect]
+  - [runtime / implement]
+    - cli, gc, jit, ...
+  - [meta]
+    - eval, exec, send, ...
 
 ## feature
 ## style / design
