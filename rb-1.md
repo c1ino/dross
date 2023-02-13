@@ -70,6 +70,22 @@
   - [pattern-match]
   - [builtins]
 
-## feature
+## feature / paradigm
 ## style / zen
 ## design / model
+## topic
+- environment / runtime
+  - install
+  - cli / config
+  - package-mangager
+- software-develop
+  - scm/vcs, sdk, toolchain/scaffolding
+  - debug, unit-test, skills/techniques
+  - deployment, distribution
+  - architecture, design-pattern
+  - ...
+- best-practice / coding-style / trick
+- upstream / implement / low-level / contribute
+- universal / basic / common
+  - background / system 
+  - data-struct / algorithm / mathematics
