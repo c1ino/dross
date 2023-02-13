@@ -41,13 +41,13 @@
 - [oop]  
   - class
     - [metaclass / singleton-class] `class << self`
-    - [attr-accessor]
+    - [attribute / attr-accessor]
     - [visibility / access-control] 
       - public / protected / private
     - [inherit] `class Cls < Base`
       - `super(...)`
       - [method-override]
-    - [instant] `Cls.new(...)`
+    - [instance] `Cls.new(...)`
     - [operator-overload]
     - [constructor]
       - `def initialize(...); end`
