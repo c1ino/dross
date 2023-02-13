@@ -35,22 +35,26 @@
       - begin / rescue / ensure 
         - retry / raise
   - [function] method
-    - def / [proc] / &block{} / do / lambda
+    - def / [proc] / &block{} / do-end / [lambda]
     - [instmethod / cls.clsmethod]
+    - [optional-parentheses]
 - [oop]
   - class
     - [metaclass / singleton-class] `class << self`
-    - [attr_accessor]
+    - [attr-accessor]
     - [visibility / access-control] 
       - public / protected / private
     - [inherit] `class Cls < Base`
-    - [inst] `Cls.new(...)`
-    - [operator-overload] / [method-override]
-    - `super(...)`
+      - `super(...)`
+      - [method-override]
+    - [instant] `Cls.new(...)`
+    - [operator-overload]
+    - [constructor]
+      - `def initialize; end`
   - module
   - [mixin] 
     - include / extend / prepend
-  - [open / reopen]
+  - [open / reopen / patch]
 - [misc]
   - [comment] 
     - magic-comment
@@ -62,6 +66,10 @@
     - cli, gc, jit, ...
   - [meta]
     - eval, exec, send, ...
+  - [refinement]
+  - [pattern-match]
+  - [builtins]
 
 ## feature
-## style / design
+## style / zen
+## design / model
