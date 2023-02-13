@@ -1,4 +1,4 @@
-## tree1
+## Tree1
 - [expr]
   - literal
   - variable
@@ -11,10 +11,10 @@
   - class
   - module
 - [misc]
-### tree2
+### Tree2
 - [expr]
   - literal
-    - [number] / String / [bool] / nil / Array / Hash
+    - [number] / String / [boolean] / nil / Array / Hash
     - Symbol / Proc / [percent]
     - Range / Regexp
   - variable
@@ -23,12 +23,12 @@
   - operator
     - assign / calculate / compare / logic / bit / range 
     - [special]
-      - defined? / dot`.` / namespace`::` / index`[]`
-- [stmt]
+      - defined? / dot-method`.` / namespace`::` / index`[]`
+- [stmt]  
   - [flow] / modifier
-    - [branch]  
+    - [branch] (`then`)
       - if / unless / case-when / [ternary]
-    - [loop] 
+    - [loop] (`do`)
       - while / until / for-in
         - break / next / redo
     - [error]
@@ -38,7 +38,7 @@
     - def / [proc] / &block{} / do-end / [lambda]
     - [instmethod / cls.clsmethod]
     - [optional-parentheses]
-- [oop]
+- [oop]  
   - class
     - [metaclass / singleton-class] `class << self`
     - [attr-accessor]
@@ -50,7 +50,7 @@
     - [instant] `Cls.new(...)`
     - [operator-overload]
     - [constructor]
-      - `def initialize; end`
+      - `def initialize(...); end`
   - module
   - [mixin] 
     - include / extend / prepend
